@@ -1,0 +1,263 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "gp_section_612315366302941795": {
+      "settings": {
+        "checksum": "921a0305cd2ba8a2f9bf66ea7f698a1b67fd5c6fe7e1579173b37b08d140ed67_1_1_1_0__1",
+        "ggJaCpkz2jX_text": "<p>10% OFF Storewide + Free Soap on Every Order + Free Mystery Gift on $100+ Orders</p>",
+        "ggLthalztKP_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/download_8_f770a28d-bec4-4dcf-a987-d5219e7342cb.png",
+        "ggNFLeXPc_W_dayLabel": "Day",
+        "ggNFLeXPc_W_hourLabel": "Hour",
+        "ggNFLeXPc_W_minuteLabel": "Minute",
+        "ggNFLeXPc_W_secondLabel": "Second",
+        "ggNFLeXPc_W_weekLabel": "Week",
+        "ggYchVIXYXr_text": "<p>Ends Cyber Monday at Midnight</p>",
+        "ggYtLhXg6Y7_text": "<p>100k+ Customers Choose Healing Over Chemicals</p>",
+        "ggf_Mzutwah_childItem_0": "<p>Lifetime Guarantee - Love it or your money back</p>",
+        "gghI9QzXC8k_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/download_8_f770a28d-bec4-4dcf-a987-d5219e7342cb.png",
+        "ggokT0evkhh_label": "<p>Try risk-free</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "ggyXUX8L6GS_text": "Your soap might<br>be causing your<br><span style=\"color:#F15722;\">skin issues</span>",
+        "section_preload": "true"
+      },
+      "type": "gp-section-612315366302941795"
+    },
+    "gp_section_612329473626342187": {
+      "settings": {
+        "checksum": "4e59211961897dfb5fdb25515b47eb1a7aa42eb44fd74442901740891dcbd2ef_1_1_1_0__1",
+        "ggUj4b2tMYj_text": "<p>👐 100% Handmade</p>",
+        "ggk1AeJpPgb_text": "<p>🌱 100% Organic</p>",
+        "gglN5t2V29W_text": "<p>🇺🇸 100% American</p>",
+        "ggv_U59QvTA_text": "<p>🍃 100% Natural Ingredients</p>"
+      },
+      "type": "gp-section-612329473626342187"
+    },
+    "gp_section_612329649434788451": {
+      "settings": {
+        "checksum": "f82b305d9eb8a9825a3ec8d17bed179186d92fcde6410e26762fffa3d5ec59a9_1_1_1_0__1",
+        "ggKxplURxi2_background_desktop_image_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/top.webp"
+      },
+      "type": "gp-section-612329649434788451"
+    },
+    "gp_section_612331369619522147": {
+      "settings": {
+        "checksum": "084c201e50544d565d2b83aa6f702e3c08c365e60a3058e96b92cd5e9e4ee818_1_1_1_0__1",
+        "gg1sLUyj_yl_text": "<p>Filled with ingredients never meant for real skin health.</p>",
+        "gg3QaQ7eXDY_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/978b4ae0-2b6d-4be1-9f58-d70031801a64.webp",
+        "gg64kdR-WYY_text": "&nbsp;What <span style=\"color:#F15722;\">They Don’t Tell You</span> About “Natural” Soaps",
+        "gg7iT8qG0sT_text": "<p>White-labeled junk designed to sell, not help.</p>",
+        "gg9L0scZEhc_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/f6fe6ba4-6743-4a36-80c7-2759271a8389.webp",
+        "gg9L0scZEhc_srcSet_mobile_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/978b4ae0-2b6d-4be1-9f58-d70031801a64.webp",
+        "ggC0mXqpVbi_text": "Harsh Detergents",
+        "ggEuOL6iDvb_text": "Synthetic Fragrance",
+        "ggFFWvuANTa_text": "<p>Most soaps today are made purely for profit - at the expense of your health.</p>",
+        "ggHWKRXEPXj_text": "<p>Hormone disruptors hiding underneath the word \"Natural Fragrance.</p>",
+        "ggJR9VwRd30_text": "<p>Hormone disruptors hiding underneath the word \"Natural Fragrance.</p>",
+        "ggJUscSCV0Y_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/f6fe6ba4-6743-4a36-80c7-2759271a8389.webp",
+        "ggJUscSCV0Y_srcSet_mobile_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/43f8d19b-9719-4556-bbe5-2e5d3e8cd545.webp",
+        "ggKainJBU2e_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/f6fe6ba4-6743-4a36-80c7-2759271a8389.webp",
+        "ggP72LYBNnT_text": "Not Skin-Safe",
+        "ggRqYVdagOz_text": "<p>Filled with ingredients never meant for real skin health.</p>",
+        "ggeZxLlkF6u_text": "Not Skin-Safe",
+        "ggfgULFNtTN_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/43f8d19b-9719-4556-bbe5-2e5d3e8cd545.webp",
+        "gggLa9SW4WD_text": "Mass-Made",
+        "gggoP1ZjXpr_text": "Synthetic Fragrance",
+        "ggjnMv5Cb2K_text": "<p>Strip your skin’s natural barrier and dry you out.</p>",
+        "ggkC2tWEYpe_text": "<p>White-labeled junk designed to sell, not help.</p>",
+        "ggn9vzkdMgr_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/f6fe6ba4-6743-4a36-80c7-2759271a8389.webp",
+        "ggn9vzkdMgr_srcSet_mobile_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/fd0dbc89-b5d9-4ee1-9347-7aa8581f2446.webp",
+        "ggsBekr4K_o_text": "<p>Strip your skin’s natural barrier and dry you out.</p>",
+        "ggsmLDGahVJ_text": "Harsh Detergents",
+        "ggxDxWjiem7_text": "Harsh Detergents",
+        "ggyhseuvX1u_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/fd0dbc89-b5d9-4ee1-9347-7aa8581f2446.webp",
+        "ggzDDGN9sJ8_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/f6fe6ba4-6743-4a36-80c7-2759271a8389.webp"
+      },
+      "type": "gp-section-612331369619522147"
+    },
+    "gp_section_612336664290788205": {
+      "settings": {
+        "checksum": "6e83b0c60b35fe4428dcc09ce3af9d9672cd823434ff6915a1f9c2f6634e27cc_1_1_1_0__1",
+        "ggjeJ69vCRh_background_desktop_image_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/bottom.webp"
+      },
+      "type": "gp-section-612336664290788205"
+    },
+    "gp_section_612337001277948435": {
+      "settings": {
+        "checksum": "90529ed2128880810d8eb3dc12ab169db3e635533b5f92efd5aeb7c6ef08adf3_1_1_1_0__1",
+        "gg0a3jR2BCe_label": "<p>Shop bow</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "gg1f6rCSPZa_childItem_0": "<p>70k+ Happy Customers</p>",
+        "gg2elsRXh9D_label": "<p>Shop bow</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "gg4lh0I1bTd_text": "Shop Our Best-Sellers — Now <span style=\"color:#F15722;\">10% OFF</span> + <span style=\"color:#F15722;\">Free Soap</span> on Every Order",
+        "ggAloM8V6z0_text": "<p>Form</p>",
+        "ggDfssPtPrN_label": "<p>Shop bow</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "ggDmxwgtmR-_text": "<p>Form</p>",
+        "ggHse77iJsR_childItem_0": "<p>Lifetime Guarantee</p>",
+        "ggKrZuPIAMI_childItem_0": "<p>For all skin types</p>",
+        "ggKrZuPIAMI_childItem_1": "<p>Long-lasting, ultra-nourishing lather</p>",
+        "ggLazmdrfZx_text": "<p>500+ Reviews</p>",
+        "ggTIBo9GSob_text": "<p>500+ Reviews</p>",
+        "ggY4NiBcf55_label": "<p>Shop bow</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "gg_KyhNc4k__label": "<p>Shop bow</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "gggbFuY0WHh_text": "<p>500+ Reviews</p>",
+        "ggki-GDM_pz_text": "<p>500+ Reviews</p>",
+        "ggq8wEiR9xG_text": "<p>Form</p>",
+        "gguJHwdv4Dh_childItem_0": "<p>Accelerates healing for cuts, burns, bruises, etc.</p>",
+        "gguJHwdv4Dh_childItem_1": "<p>Clean formula for any skin type</p>",
+        "ggvrxdMtbep_text": "<p>Form</p>",
+        "ggw3pcj68BI_childItem_0": "<p>Multi-use: body, face, home, more</p>",
+        "ggw3pcj68BI_childItem_1": "<p>Safe for sensitive or dry skin</p>",
+        "ggyM-iceYsc_childItem_0": "<p>For daily moisture and deeper healing</p>",
+        "ggyM-iceYsc_childItem_1": "<p>Soothing hydration with bone marrow and chamomile</p>"
+      },
+      "type": "gp-section-612337001277948435"
+    },
+    "gp_section_612343132830302819": {
+      "settings": {
+        "checksum": "47cfb4b7550bf0e427d43a4f4f02f0bbc35ec6092c2171563916fbb391c23826_1_1_1_0__1",
+        "gg--0RfAGvf_background_desktop_image_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/top.webp"
+      },
+      "type": "gp-section-612343132830302819"
+    },
+    "gp_section_612343135330108269": {
+      "settings": {
+        "checksum": "7dd6682723ae1cd4f0903bd6eca40038ae8d1a3fbf1398873900050929d516a7_1_1_1_0__1",
+        "gg0djWKZmT9_text": "No Fake Scents",
+        "gg36tYAbnss_text": "<p>We only use essential oils for a truly natural and delicious aroma.</p>",
+        "gg5oxtlGaIC_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/f6fe6ba4-6743-4a36-80c7-2759271a8389.webp",
+        "gg9MxX6pmE-_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/f6fe6ba4-6743-4a36-80c7-2759271a8389.webp",
+        "ggJ87fHJFZK_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/f6fe6ba4-6743-4a36-80c7-2759271a8389.webp",
+        "ggKUDecjznC_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/f6fe6ba4-6743-4a36-80c7-2759271a8389.webp",
+        "ggSbHwefvDB_text": "No Fake Scents",
+        "ggT30U2hWXe_text": "<p>We only use essential oils for a truly natural and delicious aroma.</p>",
+        "ggXlgfNDZ_A_text": "No Fake Scents",
+        "ggYU2JskI8Y_text": "<p>We only use essential oils for a truly natural and delicious aroma.</p>",
+        "gg_zfst5J70_text": "No Fake Scents",
+        "ggbE-lh8MFk_text": "<p>We only use essential oils for a truly natural and delicious aroma.</p>",
+        "ggdzXXI04lj_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/f6fe6ba4-6743-4a36-80c7-2759271a8389.webp",
+        "gge90gzLoK4_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/f6fe6ba4-6743-4a36-80c7-2759271a8389.webp",
+        "ggfIlPJJ6HY_text": "<p>We only use essential oils for a truly natural and delicious aroma.</p>",
+        "gghlF3JyCWc_text": "No Fake Scents",
+        "ggrY_cd54i1_text": "<p>We only use essential oils for a truly natural and delicious aroma.</p>",
+        "ggvQ12xdxV4_text": "No Fake Scents",
+        "ggwbgo4DeyS_text": "The Health y Sol Difference",
+        "ggwsrh7R2Ux_background_desktop_image_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/312b685f-37fc-4113-904c-8ccbb42ae717.webp"
+      },
+      "type": "gp-section-612343135330108269"
+    },
+    "gp_section_612362157874479981": {
+      "settings": {
+        "checksum": "8e03a11685fceead31cb6d12ac5e5a0ce9931f92cbfeccbd1cc8d454f1094fd1_1_1_1_0__1",
+        "gg0eIFnCAo5_text": "<p>Loaded with vitamins and antioxidants to protect and moisturize.</p>",
+        "gg2T0Kooql6_text": "<p>Never used tallow soap before, so I ordered the sample pack to see how it was. After one use, I went right back to the website and ordered a 5 pack. The way the soap makes your skin feel nourished is incredible. All the scents smell amazing and each bar lasts a long time. Threw out all of my other body wash products once I used Health Y Sol. Never going back!\"</p>",
+        "gg72ZxZb2zr_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/4d0f7f4c-146e-4e36-8abd-2c2c5054508b.webp",
+        "ggA-_hPo_Dv_childItem_0": "<p>70k+ Happy Customers</p>",
+        "ggA6F1E5rqi_text": "<p>TYLER W.</p>",
+        "ggAqq_boREA_text": "This Is What Clean Should Look Like",
+        "ggB6yBe5BJi_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/336b7a3c-fe95-44d2-8605-e23ba8aa1b65.webp",
+        "ggGBJvmZNCy_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/Gemini_Generated_Image_9zoljm9zoljm9zol.png",
+        "ggGVcHhhEJt_text": "Organic Essential Oils",
+        "ggGc9QlfvXH_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/a119973c-3510-4692-b2d5-0b62da0fc242.webp",
+        "ggHhSMo0QnN_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/b92924d9-1f0e-4df4-a1c8-7ac59c111163.webp",
+        "ggI5oeMmafn_text": "<p>Pure plant extracts for scent and skin support, no fake fragrances.</p>",
+        "ggMJuONVxs8_text": "Bone Marrow",
+        "ggNHFaUcLAW_childItem_0": "<p>Verified Customer</p>",
+        "ggP2ceTRk60_text": "<p>See why thousands switched — 10% OFF + Free Soap ends soon</p>",
+        "ggQ2rT5UD3Z_text": "Shea Butter",
+        "ggQz2Dravka_text": "<p>ABBY B.</p>",
+        "ggRY952yK2D_text": "Organic Herbal Infusions",
+        "ggU2lOn0nmL_label": "<p>Shop bow</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "ggV5XnARgcv_text": "Raw Honey",
+        "ggWpT6Dac3C_childItem_0": "<p>Lifetime Guarantee</p>",
+        "ggXWZuBARA2_childItem_0": "<p>Verified Customer</p>",
+        "ggXcJKgwwaT_text": "<p>MSHER</p>",
+        "ggXyvIXjGu0_text": "<p>Natural antibacterial and moisture magnet for soft, protected skin.</p>",
+        "ggY8C-UX2q1_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/eea45b39-ba5b-429e-8fba-6383fea5538d.webp",
+        "ggYh8FrRQPu_childItem_0": "<p>Verified Customer</p>",
+        "gg_GolCVIYb_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/Gemini_Generated_Image_7otqku7otqku7otq.png",
+        "ggaGKB2skJ3_text": "<p>Every bar, balm, and bottle is made with natural, healing ingredients — nothing synthetic, nothing hidden.</p>",
+        "gge8IRBL8ws_childItem_0": "<p>Lifetime Guarantee</p>",
+        "ggfu0fa1yPo_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/Gemini_Generated_Image_85q9eo85q9eo85q9.png",
+        "ggg3RjJhELR_childItem_0": "<p>Verified Customer</p>",
+        "ggh4HuXuztW_text": "<p>THE BEST Tallow soap I’ve tried This is by far THE BEST Tallow soap I’ve tried. It leaves you soooo soft, the scents are perfect, not too strong and not weak. I will definitely be repurchasing the bundle once I run out. Highly recommend!</p>",
+        "gghXKPetwgi_text": "<p>Rich in natural collagen and skin-identical lipids that deeply nourish, strengthen, and support skin repair.</p>",
+        "ggidu3t0JhP_text": "Only <span style=\"color:#F15722;\">ingredients </span>your skin recognizes",
+        "ggif1nKajVq_childItem_0": "<p>70k+ Happy Customers</p>",
+        "ggivuCOmRLC_text": "Grass-Fed Tallow",
+        "ggj_Gps3oMy_text": "<p>SHELLEY</p>",
+        "ggjt39Ospck_text": "Organic Olive &amp; Coconut Oils",
+        "gglAFXqPeI2_label": "<p>Shop bow</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "gglrGsWYdhC_text": "<p>Melissa</p>",
+        "ggmcQa9tK54_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/Gemini_Generated_Image_cfd1zncfd1zncfd1.png",
+        "ggmmRg7Zxv1_childItem_0": "<p>Verified Customer</p>",
+        "ggo19-FRmf__text": "<p>Packed with essential fatty acids and vitamins A, D, E &amp; K to moisturize, protect, and mimic your skin’s natural barrier.</p>",
+        "ggpGcVlKzxg_text": "<p>Best soap I’ve ever used! Been a faithful dr. Squatch guy for a couple years but after getting on carnivore diet and seeing health benefits of natural animal products I was won over ny their small business model, appreciation and goal for natural health and being a conservative. After using this soap the smell stays so long on the skin throighout the day feeling fresh and my skin is so much smoother after just 2 uses.</p>",
+        "ggrQFmyUYPe_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/5f764bcb-16e6-4adf-9f33-50a554dcd17c.webp",
+        "ggs9dZn8OIL_text": "<p>A little goes a long way. It goes into the skin very nicely and does not irritate it at all. I will be using this all summer long, and don't mind applying it daily because it moisturizes and makes my skin look good. Great sun protecting product!</p>",
+        "ggsUEOCeKQv_text": "<p>Deeply nourishing natural fat rich in vitamins A &amp; E that hydrates, softens, and protects dry or damaged skin while strengthening the skin barrier.</p>",
+        "ggumCEb2OXf_text": "<p>Shortly after I received this balm, I spilled boiling water on my arm, After cooling with cold water I used the balm. The pain and redness receded pretty fast. It has helped with healing tremendously. Amazing stuff. Thank you!</p>",
+        "ggxihK7VoeW_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/Gemini_Generated_Image_q3sww7q3sww7q3sw.png",
+        "ggzKbwe4ceu_text": "<p>Chamomile, arnica, calm inflammation and speed recovery.</p>",
+        "ggzPh13_LMH_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/Gemini_Generated_Image_961ahv961ahv961a_1.png"
+      },
+      "type": "gp-section-612362157874479981"
+    },
+    "gp_section_612388973536346923": {
+      "settings": {
+        "checksum": "00fe6863d01748262809bbfade4a2141843af83d064e0d447fa99d62cec0b45e_1_1_1_0__1",
+        "ggpEKlEi2b-_background_desktop_image_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/bottom.webp"
+      },
+      "type": "gp-section-612388973536346923"
+    },
+    "gp_section_612389338625344299": {
+      "settings": {
+        "checksum": "0f7b21bdb29277443a0ddab86e5b07f9aa188cad217bf9858b4a15c0ba2c2cc3_1_1_1_0__1",
+        "gg8i6PzUgOe_text": "<p>Our bar soap is an excellent choice for babies. Our soap is mostly tallow which is perfect for sensitive skin. We recommend using our unscented variation as some babies might be sensitive to essential oils.</p>",
+        "ggC45EVc6Bw_text": "<p>Many of our customers will notice our soap bars are not only larger than most others, but they last longer too. With proper care, you can expect your bar of soap to last 6-8 weeks.</p>",
+        "ggF01h_EDti_label": "<p>Shop bow</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "ggKLbG-d1ji_text": "<p>Absolutely. It is safe for sensitive skin like on the face and for kids and babies.</p>",
+        "ggM5I9NPv5q_text": "Frequently Asked Questions",
+        "ggNI_JcU2I-_childItem_0": "<p>70k+ Happy Customers</p>",
+        "ggbuBKym1a9_text": "<p>No worries, we offer a customer satisfaction guarantee.</p>",
+        "gghFxDx_LgN_childItem_0": "<p>Lifetime Guarantee</p>",
+        "ggljbLDxZCu_text": "<p>Most of the time skin issues are related to your diet and gut health. For this reason we cannot guarantee that our soap will heal your skin. But we have had dozens of customers report back to us with improved skin conditions! Sometimes you are a simple soap swap away from your best skin. Like our founder. About Us</p>",
+        "ggpXWvQkHup_childItem_0": "<p>Is your soap safe for sensitive skin and conditions like eczema or rosacea?</p>",
+        "ggpXWvQkHup_childItem_1": "<p>Will this help clear my acne or improve my skin?</p>",
+        "ggpXWvQkHup_childItem_2": "<p>What makes your soap different from other “natural” brands?</p>",
+        "ggpXWvQkHup_childItem_3": "<p>Is this really worth the price?</p>",
+        "ggpXWvQkHup_childItem_4": "<p>Can I use this on my face (or on kids)?</p>",
+        "ggpXWvQkHup_childItem_5": "<p>What if I don’t like it?</p>",
+        "ggvFtfTkF5T_text": "<p>While most other brands rely on cheap oils that waste away quickly in a soap bar, we use beef tallow which creates a very hard, long lasting bar. It’s also a much more sustainable option compared to palm oil. Additionally, we only use organic essential oils for fragrance, whereas most other soap companies are using synthetic fragrances that are harming your health.</p>"
+      },
+      "type": "gp-section-612389338625344299"
+    },
+    "gp_section_612390896238854955": {
+      "settings": {
+        "checksum": "bd6907e89a6e3079b3bc2969450d588def52c01a9edfdadc67d8c80c5b027cae_1_1_1_0__1",
+        "ggKMYYn2Jsv_background_desktop_image_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/top.webp"
+      },
+      "type": "gp-section-612390896238854955"
+    }
+  },
+  "order": [
+    "gp_section_612315366302941795",
+    "gp_section_612329473626342187",
+    "gp_section_612329649434788451",
+    "gp_section_612331369619522147",
+    "gp_section_612336664290788205",
+    "gp_section_612337001277948435",
+    "gp_section_612343132830302819",
+    "gp_section_612362157874479981",
+    "gp_section_612388973536346923",
+    "gp_section_612343135330108269",
+    "gp_section_612390896238854955",
+    "gp_section_612389338625344299"
+  ],
+  "layout": "theme.gempages.blank"
+}
