@@ -1,0 +1,37 @@
+{% liquid
+  assign image = block.settings.image
+%}
+
+<div class="image" {{ block.shopify_attributes }}>
+  {% if image != blank %}
+    {{ image | image_url: width: 1200 | image_tag: fetchpriority: 'high', loading: 'lazy', class: 'image' }}
+  {% else %}
+    {{ 'blog-apparel-1' | placeholder_svg_tag: 'image' }}
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Image",
+  "class": "image",
+  "tag": null,
+  "blocks": [
+    {
+      "type": "@theme"
+    }
+  ],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image",
+      "category": "Basic"
+    }
+  ]
+}
+{% endschema %}

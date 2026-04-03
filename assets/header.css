@@ -1,0 +1,205 @@
+/* ========================
+   Header Base
+======================== */
+header {
+  background: rgb(var(--background));
+  width: 100%;
+  padding: 1rem clamp(0rem, 5vw, 0rem);
+}
+
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  position: relative;
+}
+
+/* Logo */
+.header_wrapper .logo {
+  z-index: 2;
+}
+
+nav.header_nav ul {
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 2vw, 2rem);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav.header_nav ul li a {
+  font-family: var(--jost);
+  position: relative;
+  color: rgb(var(--text));
+  text-decoration: none;
+  font-size: clamp(1rem, 1vw, 1rem);
+}
+
+nav.header_nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--menu_underline_color);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+nav.header_nav ul li a:hover::after {
+  transform: scaleX(1);
+}
+
+/* Header Icons */
+.header_icon {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.5rem, 2vw, 1rem);
+}
+
+.header_icon i {
+  font-size: clamp(1.15rem, 2vw, 1.25rem);
+  color: var(--menu_icon_color);
+  cursor: pointer;
+}
+
+/* Hamburger for mobile */
+.mobile_nav_toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 100;
+}
+
+/* Hero Search Button */
+.hero_search_btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ========================
+   Main Menu Customer
+======================== */
+.main_menu_customer {
+  display: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Form reset */
+.main_menu_customer form {
+  margin: 0;
+}
+
+/* Select styling */
+.main_menu_customer select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-size: 0.9rem;
+  font-family: var(--jost);
+  border: none;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Hover + focus */
+.main_menu_customer select:hover {
+  border-color: #999;
+}
+
+.main_menu_customer select:focus {
+  outline: none;
+  border-color: #000;
+}
+
+/* Custom arrow */
+.main_menu_customer form {
+  position: relative;
+}
+
+.main_menu_customer form::after {
+  content: "<i class=" ri-arrow-down-s-line "></i>";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 0.8rem;
+  color: #555;
+}
+/* ========================
+   Responsive Header
+======================== */
+
+/* Large Tablets */
+@media (max-width: 992px) {
+  nav.header_nav ul {
+    gap: clamp(0.8rem, 2vw, 1.5rem);
+  }
+}
+
+/* Mobile / Tablet */
+@media (max-width: 768px) {
+  .mobile_nav_toggle {
+    display: block;
+  }
+
+  nav.header_nav {
+    width: 100%;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(var(--background));
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    z-index: 99;
+    padding-top: 5rem;
+  }
+
+  nav.header_nav ul {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .header_wrapper {
+    justify-content: space-between; /* logo centered */
+  }
+
+  .header_wrapper .logo {
+    order: 1;
+  }
+
+  .header_icon {
+    order: 2;
+  }
+
+  /* ========================
+     Toggle Active Class JS
+  ======================== */
+  nav.header_nav.active {
+    display: flex;
+    align-items: flex-start;
+    width: 350px;
+    height: 100vh;
+    justify-content: space-between;
+  }
+  .main_menu_customer {
+    display: flex;
+  }
+}

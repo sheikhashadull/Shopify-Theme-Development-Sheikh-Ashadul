@@ -1,0 +1,66 @@
+.collection_list_wrapper {
+  padding-left: clamp(1rem, 5vw, 10rem); /* responsive padding */
+}
+
+.collection_item {
+  width: clamp(260px, 28vw, 450px);  /* 🔥 same feel but flexible */
+  height: clamp(380px, 45vw, 590px); /* 🔥 proportional height */
+  background-color: rgb(245, 245, 245);
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.collection_item a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide_content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.slide_content h3 {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+.slide_content i {
+  padding: .6rem;
+  background: aquamarine;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  z-index: 1;
+}
+
+.collection_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.arrow-btn {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 2%;
+  background: black;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 50px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  font-size: 14px;
+}

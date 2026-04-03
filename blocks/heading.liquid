@@ -1,0 +1,35 @@
+{% liquid
+  assign heading = block.settings.heading
+%}
+<div class="heading-{{ block.id }}" {{ block.shopify_attributes }}>
+  {{ heading }}
+</div>
+
+{% style %}
+.heading-{{ block.id }}{
+  color: rgb(var(--heading));
+}
+{% endstyle %}
+
+
+{% schema %}
+{
+  "name": "Heading",
+  "class": "heading",
+  "tag": null,
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "<h2>New Arrivals</h2>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Heading",
+      "category": "Basic"
+    }
+  ]
+}
+{% endschema %}

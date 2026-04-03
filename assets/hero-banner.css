@@ -1,0 +1,37 @@
+.hero_banner{
+    position: relative;
+}
+.hero_slide{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero_slide .slide_background{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.hero_slide .slide_content{
+    position: absolute;
+    width: min(100%, var(--page_width));
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: var(--vertical_align);
+    justify-content: var(--horizontal_align);
+    gap: var(--content_gap);
+    transform: translate(-50%, -50%);
+}
+.hero_slide .slide_content p{
+    font-size: 1.125rem;
+    font-family: var(--body);
+    line-height: 1;
+}
+.hero_slide .slide_content h2{
+    font-weight: 400;
+    font-size: clamp(2.25rem, 4.25vw, 4.375rem);
+    font-family: var(--heading);
+}

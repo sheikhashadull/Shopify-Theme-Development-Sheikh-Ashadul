@@ -1,0 +1,42 @@
+
+{% liquid
+  assign text = block.settings.text
+%}
+
+<div class="text-{{ block.id }}" {{ block.shopify_attributes }}>
+  {{ text }}
+</div>
+{% content_for 'blocks' %}
+
+{% style %}
+  .text-{{ block.id }}{
+    color: rgb(var(--text));
+  }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Text",
+  "class": "text",
+  "tag": null,
+  "blocks": [
+    {
+      "type": "@theme"
+    }
+  ],
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "text",
+      "default": "<p>New Arrivals</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text",
+      "category": "Basic"
+    }
+  ]
+}
+{% endschema %}

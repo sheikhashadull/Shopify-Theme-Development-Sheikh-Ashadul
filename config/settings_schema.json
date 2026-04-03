@@ -1,0 +1,144 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Skeleton",
+    "theme_version": "0.1.0",
+    "theme_author": "Shopify",
+    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
+    "theme_support_url": "https://support.shopify.com/"
+  },
+  {
+    "name": "Brand Logo",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo"
+      },
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon"
+      },
+      {
+        "type": "range",
+        "id": "logo_width",
+        "label": "Logo Width",
+        "min": 10,
+        "max": 150,
+        "step": 5,
+        "unit": "px",
+        "default": 50
+      }
+
+    ]
+  },
+  {
+    "name": "t:general.typography",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:general.fonts"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_primary_font",
+        "default": "work_sans_n4",
+        "label": "t:general.primary"
+      }
+    ]
+  },
+  {
+      "name": "Layout",
+      "settings": [
+          {
+              "type": "range",
+              "id": "page_width",
+              "min": 1000,
+              "max": 1750,
+              "step": 10,
+              "default": 1440,
+              "unit": "px",
+              "label": "Page Width"
+
+          }
+      ]
+  },
+  {
+    "name": "Color Scheme",
+    "settings": [
+      {
+        "type": "color_scheme_group",
+        "id": "color_schemes",
+        "definition": [
+          {
+            "type": "color",
+            "id": "background",
+            "label": "Background",
+            "default": "#FFFFFF"
+          },
+          {
+            "type": "color_background",
+            "id": "background_gradient",
+            "label": "Background Gradient",
+          },
+          {
+            "type": "color",
+            "id": "text",
+            "label": "Text",
+            "default": "#000000"
+          },
+          {
+            "type": "color",
+            "id": "heading",
+            "label": "Heading",
+            "default": "#000000"
+          },
+          {
+            "type": "header",
+            "content": "Button"
+          },
+          {
+            "type": "color",
+            "id": "button",
+            "label": "Button",
+            "default": "#000000"
+          },
+          {
+            "type": "color",
+            "id": "button_text",
+            "label": "Button Text",
+            "default": "#FFFFFF",
+          },
+          {
+            "type": "color",
+            "id": "secondary_button",
+            "label": "Secondary Button",
+            "default": "#ffffff"
+          },
+          {
+            "type": "color",
+            "id": "secondary_button_text",
+            "label": "Secondary Button Text",
+            "default": "#000000"
+          },
+        ],
+        "role": {
+          "text": "text",
+          "background": {
+            "solid": "background",
+            "gradient": "background_gradient"
+          },
+          "links": "secondary_button_text",
+          "icons": "text",
+          "primary_button": "button",
+          "on_primary_button": "button_text",
+          "primary_button_border": "button",
+          "secondary_button": "background",
+          "on_secondary_button": "secondary_button_text",
+          "secondary_button_border": "secondary_button_text"
+        }
+      }
+    ]
+  },
+]

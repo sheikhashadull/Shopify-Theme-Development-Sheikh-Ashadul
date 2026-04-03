@@ -1,0 +1,119 @@
+{% liquid
+  assign slide_background = block.settings.slide_background
+  assign horizontal_align = block.settings.horizontal_align
+  assign vertical_align = block.settings.vertical_align
+
+  assign content_gap = block.settings.content_gap
+%}
+
+<div class="swiper-slide hero_slide color-{{ block.settings.color_scheme }}" {{ block.shopify_attributes }}>
+  {% if slide_background != blank %}
+    {{
+      slide_background
+      | image_url: width: 1200
+      | image_tag: fetchpriority: 'high', loading: 'lazy', class: 'slide_background'
+    }}
+  {% else %}
+    {{ 'blog-apparel-1' | placeholder_svg_tag: 'slide_background' }}
+  {% endif %}
+
+  <div class="slide_content">
+    {% content_for 'blocks' %}
+  </div>
+</div>
+{% style %}
+  .hero_slide{
+    --horizontal_align: {{ horizontal_align }};
+    --vertical_align: {{ vertical_align }};
+    --content_gap: {{ content_gap }}rem;
+  }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Hero Slide",
+  "tag": null,
+  "class": "hero_slide",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color Scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "image_picker",
+      "id": "slide_background",
+      "label": "Backgound"
+    },
+    {
+      "type": "header",
+      "content": "Content Alignment"
+    },
+    {
+      "type": "select",
+      "id": "horizontal_align",
+      "label": "Horizontal Align",
+      "options": [
+        { "value": "flex-start", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "flex-end", "label": "Right" },
+        { "value": "space-between", "label": "Space Between" },
+        { "value": "space-evenly", "label": "Space Evenly" },
+        { "value": "space-around", "label": "Space Around" }
+      ],
+      "default": "flex-start"
+    },
+    {
+      "type": "select",
+      "id": "vertical_align",
+      "label": "Vertical Align",
+      "options": [
+        { "value": "flex-start", "label": "Top" },
+        { "value": "center", "label": "Middle" },
+        { "value": "flex-end", "label": "Bottom" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Gaping"
+    },
+    {
+      "type": "range",
+      "id": "content_gap",
+      "min": 0,
+      "max": 5,
+      "step": 0.5,
+      "unit": "px",
+      "label": "Content Gap",
+      "default": 0.5
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@theme"
+    },
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Slide",
+      "category": "Sliders",
+      "blocks": [
+        {
+          "type": "text"
+        },
+        {
+          "type": "heading"
+        },
+        {
+          "type": "button"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

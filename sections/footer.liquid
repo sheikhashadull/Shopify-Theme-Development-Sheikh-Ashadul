@@ -1,0 +1,216 @@
+{% liquid
+  assign footer_top_bottom_padding = section.settings.footer_top_bottom_padding
+%}
+<footer class="color-{{ section.settings.color_scheme }}">
+  <div class="page_width">
+    <div class="footer_wrapper">
+      {% for block in section.blocks %}
+        {% liquid
+          assign footer_info_title = block.settings.footer_info_title
+          assign footer_info_description = block.settings.footer_info_description
+
+          assign email_placeholder = block.settings.email_placeholder
+          assign follow_morange = block.settings.follow_morange
+
+          assign footer_menu_title = block.settings.footer_menu_title
+          assign footer_menu_link = block.settings.footer_menu_link
+
+          assign facebook = block.settings.facebook
+          assign twitter_x = block.settings.twitter_x
+          assign instagram = block.settings.instagram
+          assign tiktok = block.settings.tiktok
+        %}
+        {%- case block.type -%}
+          {%- when 'footer_info' -%}
+            <div class="footer_info color-{{ block.settings.color_scheme }}" {{ block.shopify_attributes }}>
+              <h5>{{ footer_info_title }}</h5>
+              <p>{{ footer_info_description }}</p>
+              {% form 'customer', class: 'footer_email' %}
+                <span class="footer_icon">
+                  <i class="ri-mail-line"></i>
+                </span>
+
+                <input
+                  type="email"
+                  name="contact[email]"
+                  placeholder="{{ email_placeholder }}"
+                  required
+                >
+
+                <button class="footer_btn" type="submit">
+                  <i class="ri-arrow-right-line"></i>
+                </button>
+              {% endform %}
+              <div class="footer_social">
+                <p>{{ follow_morange }}</p>
+
+                <div class="social_link">
+                  {% if facebook != blank %}
+                    <div class="facebook">
+                      <a href="#"><i class="ri-facebook-fill"></i></a>
+                    </div>
+                  {% endif %}
+
+                  {% if twitter_x != blank %}
+                    <div class="twitter_x">
+                      <a href="#"><i class="ri-twitter-x-line"></i></a>
+                    </div>
+                  {% endif %}
+
+                  {% if instagram != blank %}
+                    <div class="instagram">
+                      <a href="#"><i class="ri-instagram-line"></i></a>
+                    </div>
+                  {% endif %}
+
+                  {% if tiktok != blank %}
+                    <div class="tiktok">
+                      <a href="#"><i class="ri-tiktok-fill"></i></a>
+                    </div>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          {%- when 'footer_menu' -%}
+            <div class="footer_menu color-{{ block.settings.color_scheme }}" {{ block.shopify_attributes }}>
+              <h5>{{ footer_menu_title }}</h5>
+              <ul class="footer_menu_link">
+                {% for link in footer_menu_link.links %}
+                  <li>
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {%- else -%}
+        {%- endcase -%}
+      {% endfor %}
+      <div class="footer_phn_menu">
+        <i class="ri-home-4-line"></i>
+        <i class="ri-layout-grid-line"></i>
+        <i class="ri-shopping-bag-line">
+          <span class="badge">0</span>
+        </i>
+        <i class="ri-search-line"></i>
+      </div>
+    </div>
+  </div>
+</footer>
+
+{% style %}
+  :root {
+    --footer_top_bottom_padding: {{ footer_top_bottom_padding }}px;
+  }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Footer",
+  "class": "footer",
+  "blocks": [
+    {
+      "type": "footer_info",
+      "name": "Footer Info",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "color_scheme",
+          "default": "scheme-2"
+        },
+        {
+          "type": "text",
+          "id": "footer_info_title",
+          "label": "Title",
+          "default": "Let’s get in touch"
+        },
+        {
+          "type": "text",
+          "id": "footer_info_description",
+          "label": "Description",
+          "default": "Sign up for our newsletter and receive 10% off your"
+        },
+        {
+          "type": "text",
+          "id": "email_placeholder",
+          "label": "Email Placeholder",
+          "default": "Entrer your email"
+        },
+        {
+          "type": "header",
+          "content": "Social Media Links"
+        },
+        {
+          "type": "text",
+          "id": "follow_morange",
+          "label": "Follow Morange",
+          "default": "Follow Morange"
+        },
+        {
+          "type": "url",
+          "id": "facebook",
+          "label": "Facebook"
+        },
+        {
+          "type": "url",
+          "id": "twitter_x",
+          "label": "Twitter X"
+        },
+        {
+          "type": "url",
+          "id": "instagram",
+          "label": "Instagram"
+        },
+        {
+          "type": "url",
+          "id": "tiktok",
+          "label": "Tiktok"
+        }
+      ]
+    },
+    {
+      "type": "footer_menu",
+      "name": "Footer Menu",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "color_scheme",
+          "default": "scheme-2"
+        },
+        {
+          "type": "text",
+          "id": "footer_menu_title",
+          "label": "Menu Title",
+          "default": "Company"
+        },
+        {
+          "type": "link_list",
+          "id": "footer_menu_link",
+          "label": "Footer Menu"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "color_scheme",
+      "default": "scheme-2"
+    },
+    {
+      "type": "range",
+      "id": "footer_top_bottom_padding",
+      "min": 20,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "label": "Padding Top Bottom",
+      "default": 50
+    }
+  ]
+}
+{% endschema %}

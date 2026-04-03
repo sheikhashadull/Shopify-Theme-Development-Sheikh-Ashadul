@@ -1,0 +1,71 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "t:general.footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer_info_nEwWMz": {
+          "type": "footer_info",
+          "settings": {
+            "color_scheme": "scheme-655d8382-2d67-45db-ad88-f7bbb607d148",
+            "footer_info_title": "Prenons contact",
+            "footer_info_description": "Inscrivez-vous à notre newsletter et recevez 10% de réduction sur votre",
+            "email_placeholder": "Entrer votre Email",
+            "follow_morange": "Follow Morange",
+            "facebook": "https://www.facebook.com/sheiikhashadul",
+            "twitter_x": "",
+            "instagram": "https://www.instagram.com/sheikhashadul/?hl=en",
+            "tiktok": ""
+          }
+        },
+        "footer_menu_RjXm7C": {
+          "type": "footer_menu",
+          "settings": {
+            "color_scheme": "scheme-655d8382-2d67-45db-ad88-f7bbb607d148",
+            "footer_menu_title": "Company",
+            "footer_menu_link": "footer"
+          }
+        },
+        "footer_menu_THnwXi": {
+          "type": "footer_menu",
+          "settings": {
+            "color_scheme": "scheme-655d8382-2d67-45db-ad88-f7bbb607d148",
+            "footer_menu_title": "Need Help?",
+            "footer_menu_link": "footer-menu-2"
+          }
+        },
+        "footer_menu_qpkhkp": {
+          "type": "footer_menu",
+          "settings": {
+            "color_scheme": "scheme-655d8382-2d67-45db-ad88-f7bbb607d148",
+            "footer_menu_title": "More",
+            "footer_menu_link": "footer-menu-3"
+          }
+        }
+      },
+      "block_order": [
+        "footer_info_nEwWMz",
+        "footer_menu_RjXm7C",
+        "footer_menu_THnwXi",
+        "footer_menu_qpkhkp"
+      ],
+      "settings": {
+        "color_scheme": "scheme-655d8382-2d67-45db-ad88-f7bbb607d148",
+        "footer_top_bottom_padding": 80
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -1,0 +1,75 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_banner_YNzUXB": {
+      "type": "hero-banner",
+      "blocks": {
+        "hero_slide_wVyWC8": {
+          "type": "hero-slide",
+          "settings": {
+            "color_scheme": "scheme-6ad9350c-ade8-4060-bbcf-7b57cac1e585",
+            "horizontal_align": "center",
+            "vertical_align": "flex-start",
+            "content_gap": 0.5
+          },
+          "blocks": {
+            "text_ymFQan": {
+              "type": "text",
+              "settings": {
+                "text": "<p>New Arrivals</p>"
+              },
+              "blocks": {}
+            },
+            "heading_cthEw4": {
+              "type": "heading",
+              "settings": {
+                "heading": "<h2>New Arrivals</h2>"
+              },
+              "blocks": {}
+            },
+            "button_NF4yfg": {
+              "type": "button",
+              "settings": {
+                "button_text": "Shop Now",
+                "button_url": "",
+                "button_border_color": "#000000",
+                "button_hover_color": "",
+                "button_border": 1,
+                "button_hover_border": 0,
+                "button_radius": 5,
+                "button_padding_top_bottom": 12,
+                "button_padding_left_right": 35,
+                "font_weight": "400",
+                "button_width": "auto"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_ymFQan",
+            "heading_cthEw4",
+            "button_NF4yfg"
+          ]
+        }
+      },
+      "block_order": [
+        "hero_slide_wVyWC8"
+      ],
+      "name": "Hero Banner",
+      "settings": {
+        "color_scheme": ""
+      }
+    }
+  },
+  "order": [
+    "hero_banner_YNzUXB"
+  ]
+}

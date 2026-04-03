@@ -1,0 +1,144 @@
+{% liquid
+  assign header_menu = section.settings.header_menu
+  assign menu_underline_color = section.settings.menu_underline_color
+  assign menu_icon_color = section.settings.menu_icon_color
+%}
+
+<header class="color-{{ section.settings.color_scheme }}">
+  <div class="page_width">
+    <div class="header_wrapper">
+      <!-- Mobile Hamburger -->
+      <div class="mobile_nav_toggle">
+        <i class="ri-menu-line"></i>
+      </div>
+
+      <!-- Logo -->
+      {% render 'header-logo' %}
+
+      <!-- Navigation -->
+      <nav class="header_nav">
+        <ul>
+          {% for link in header_menu.links %}
+            <li>
+              <a href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        <div class="main_menu_customer">
+          <!-- 🌍 Country -->
+          <form method="post" action="/localization">
+            <input type="hidden" name="form_type" value="localization">
+            <input type="hidden" name="utf8" value="✓">
+            <input type="hidden" name="_method" value="put">
+            <input type="hidden" name="return_to" value="{{ request.path }}">
+
+            <select name="country_code" onchange="this.form.submit()">
+              {% for country in localization.available_countries %}
+                <option
+                  value="{{ country.iso_code }}"
+                  {% if country.iso_code == localization.country.iso_code %}
+                    selected
+                  {% endif %}
+                >
+                  {{ country.name }} ({{ country.currency.iso_code }}
+                  {{ country.currency.symbol }})
+                </option>
+              {% endfor %}
+            </select>
+            <i class="ri-arrow-down-s-line"></i>
+          </form>
+
+          <!-- 🌐 Language -->
+          <form method="post" action="/localization">
+            <input type="hidden" name="form_type" value="localization">
+            <input type="hidden" name="utf8" value="✓">
+            <input type="hidden" name="_method" value="put">
+            <input type="hidden" name="return_to" value="{{ request.path }}">
+
+            <select name="locale_code" onchange="this.form.submit()">
+              {% for language in localization.available_languages %}
+                <option
+                  value="{{ language.iso_code }}"
+                  {% if language.iso_code == localization.language.iso_code %}
+                    selected
+                  {% endif %}
+                >
+                  {{ language.endonym_name }}
+                </option>
+              {% endfor %}
+            </select>
+            <i class="ri-arrow-down-s-line"></i>
+          </form>
+        </div>
+      </nav>
+
+      <!-- Icons -->
+      <div class="header_icon">
+        <div class="search">
+          <form action="{{ routes.search_url }}" method="get" role="search">
+            <input type="hidden" name="options[prefix]" value="last">
+            <button class="hero_search_btn" type="submit">
+              <i class="ri-search-line"></i>
+            </button>
+          </form>
+        </div>
+        <div class="wishlist">
+          <i class="ri-heart-3-line"></i>
+        </div>
+        <div class="shop">
+          <a href="{{ routes.cart_url }}">
+            <i class="ri-shopping-bag-line"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+{% style %}
+  :root{
+    --menu_underline_color: {{ menu_underline_color }};
+    --menu_icon_color: {{ menu_icon_color }};
+  }
+{% endstyle %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const toggle = document.querySelector('.mobile_nav_toggle');
+    const nav = document.querySelector('nav.header_nav');
+
+    toggle.addEventListener('click', function () {
+      nav.classList.toggle('active');
+    });
+  });
+</script>
+{% schema %}
+{
+  "name": "Header",
+  "class": "header",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "header_menu",
+      "label": "Menu"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color Scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color",
+      "id": "menu_icon_color",
+      "label": "Menu Icon",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "menu_underline_color",
+      "label": "Menu Underline Color",
+      "default": "#000000"
+    }
+  ]
+}
+{% endschema %}

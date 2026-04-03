@@ -1,0 +1,11 @@
+<a href="{{ routes.root_url }}" class="logo">
+  {% if settings.logo != blank %}
+    {{
+      settings.logo
+      | image_url: height: settings.logo_width
+      | image_tag: fetchpriority: 'high', loading: 'lazy', class: 'slide_image'
+    }}
+  {% else %}
+    <span>{{ shop.name }}</span>
+  {% endif %}
+</a>

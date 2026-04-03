@@ -1,0 +1,52 @@
+<section class="instagram-feed">
+  <div id="insta-posts" class="grid grid-cols-3 gap-4"></div>
+</section>
+
+<script>
+  const accessToken = "{{ section.settings.access_token }}";
+  const limit = {{ section.settings.post_limit }};
+  const container = document.getElementById('insta-posts');
+
+  fetch(`https://graph.instagram.com/me/media?fields=id,caption,media_url,permalink,media_type&access_token=${accessToken}`)
+    .then(res => res.json())
+    .then(data => {
+      const posts = data.data.slice(0, limit);
+      posts.forEach(post => {
+        if(post.media_type === "IMAGE" || post.media_type === "CAROUSEL_ALBUM"){
+          container.innerHTML += `
+            <a href="${post.permalink}" target="_blank" class="block">
+              <img src="${post.media_url}" alt="${post.caption || 'Instagram post'}" class="w-full h-auto object-cover"/>
+            </a>
+          `;
+        }
+      });
+    })
+    .catch(err => {
+      console.error("Instagram Feed Error:", err);
+      container.innerHTML = "<p>Unable to load Instagram posts.</p>";
+    });
+</script>
+
+{% schema %}
+{
+  "name": "Instagram Feed",
+  "settings": [
+    {
+      "type": "text",
+      "id": "access_token",
+      "label": "Instagram Access Token"
+    },
+    {
+      "type": "number",
+      "id": "post_limit",
+      "label": "Number of posts to show",
+      "default": 6
+    }
+  ],
+  "presets": [
+    {
+       "name": "Instagram Feed"
+    }
+  ]
+}
+{% endschema %}
