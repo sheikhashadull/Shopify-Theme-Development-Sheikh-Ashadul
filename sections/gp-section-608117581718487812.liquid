@@ -1,0 +1,843 @@
+
+    
+    
+    <style {% if section.settings.section_preload == "false" %} class="gps-link gps-style" type="text/disabled-css" {% endif %}>.gps-608117581718487812.gps.gpsil [style*="--as:"]{align-self:var(--as)}.gps-608117581718487812.gps.gpsil [style*="--aspect:"]{aspect-ratio:var(--aspect)}.gps-608117581718487812.gps.gpsil [style*="--bg:"]{background:var(--bg)}.gps-608117581718487812.gps.gpsil [style*="--bga:"]{background-attachment:var(--bga)}.gps-608117581718487812.gps.gpsil [style*="--bgc:"]{background-color:var(--bgc)}.gps-608117581718487812.gps.gpsil [style*="--bgi:"]{background-image:var(--bgi)}.gps-608117581718487812.gps.gpsil [style*="--bgp:"]{background-position:var(--bgp)}.gps-608117581718487812.gps.gpsil [style*="--bgr:"]{background-repeat:var(--bgr)}.gps-608117581718487812.gps.gpsil [style*="--bgs:"]{background-size:var(--bgs)}.gps-608117581718487812.gps.gpsil [style*="--b:"]{border:var(--b)}.gps-608117581718487812.gps.gpsil [style*="--bb:"]{border-bottom:var(--bb)}.gps-608117581718487812.gps.gpsil [style*="--bc:"]{border-color:var(--bc)}.gps-608117581718487812.gps.gpsil [style*="--bblr:"]{border-bottom-left-radius:var(--bblr)}.gps-608117581718487812.gps.gpsil [style*="--bbrr:"]{border-bottom-right-radius:var(--bbrr)}.gps-608117581718487812.gps.gpsil [style*="--bl:"]{border-left:var(--bl)}.gps-608117581718487812.gps.gpsil [style*="--radius:"]{border-radius:var(--radius)}.gps-608117581718487812.gps.gpsil [style*="--bs:"]{border-style:var(--bs)}.gps-608117581718487812.gps.gpsil [style*="--bt:"]{border-top:var(--bt)}.gps-608117581718487812.gps.gpsil [style*="--btlr:"]{border-top-left-radius:var(--btlr)}.gps-608117581718487812.gps.gpsil [style*="--btrr:"]{border-top-right-radius:var(--btrr)}.gps-608117581718487812.gps.gpsil [style*="--bw:"]{border-width:var(--bw)}.gps-608117581718487812.gps.gpsil [style*="--shadow:"]{box-shadow:var(--shadow)}.gps-608117581718487812.gps.gpsil [style*="--c:"]{color:var(--c)}.gps-608117581718487812.gps.gpsil [style*="--cg:"]{-moz-column-gap:var(--cg);column-gap:var(--cg)}.gps-608117581718487812.gps.gpsil [style*="--ff:"]{font-family:var(--ff)}.gps-608117581718487812.gps.gpsil [style*="--size:"]{font-size:var(--size)}.gps-608117581718487812.gps.gpsil [style*="--weight:"]{font-weight:var(--weight)}.gps-608117581718487812.gps.gpsil [style*="--gtc:"]{grid-template-columns:var(--gtc)}.gps-608117581718487812.gps.gpsil [style*="--h:"]{height:var(--h)}.gps-608117581718487812.gps.gpsil [style*="--jc:"]{justify-content:var(--jc)}.gps-608117581718487812.gps.gpsil [style*="--ls:"]{letter-spacing:var(--ls)}.gps-608117581718487812.gps.gpsil [style*="--lh:"]{line-height:var(--lh)}.gps-608117581718487812.gps.gpsil [style*="--tdt:"]{text-decoration-thickness:var(--tdt)}.gps-608117581718487812.gps.gpsil [style*="--tdl:"]{text-decoration-line:var(--tdl)}.gps-608117581718487812.gps.gpsil [style*="--m:"]{margin:var(--m)}.gps-608117581718487812.gps.gpsil [style*="--mb:"]{margin-bottom:var(--mb)}.gps-608117581718487812.gps.gpsil [style*="--ml:"]{margin-left:var(--ml)}.gps-608117581718487812.gps.gpsil [style*="--mt:"]{margin-top:var(--mt)}.gps-608117581718487812.gps.gpsil [style*="--objf:"]{-o-object-fit:var(--objf);object-fit:var(--objf)}.gps-608117581718487812.gps.gpsil [style*="--op:"]{opacity:var(--op)}.gps-608117581718487812.gps.gpsil [style*="--o:"]{order:var(--o)}.gps-608117581718487812.gps.gpsil [style*="--pc:"]{place-content:var(--pc)}.gps-608117581718487812.gps.gpsil [style*="--p:"]{padding:var(--p)}.gps-608117581718487812.gps.gpsil [style*="--pb:"]{padding-bottom:var(--pb)}.gps-608117581718487812.gps.gpsil [style*="--pl:"]{padding-left:var(--pl)}.gps-608117581718487812.gps.gpsil [style*="--pr:"]{padding-right:var(--pr)}.gps-608117581718487812.gps.gpsil [style*="--pt:"]{padding-top:var(--pt)}.gps-608117581718487812.gps.gpsil [style*="--rg:"]{row-gap:var(--rg)}.gps-608117581718487812.gps.gpsil [style*="--ta:"]{text-align:var(--ta)}.gps-608117581718487812.gps.gpsil [style*="--ts:"]{text-shadow:var(--ts)}.gps-608117581718487812.gps.gpsil [style*="--tt:"]{text-transform:var(--tt)}.gps-608117581718487812.gps.gpsil [style*="--t:"]{transform:var(--t)}.gps-608117581718487812.gps.gpsil [style*="--w:"]{width:var(--w)}.gps-608117581718487812.gps.gpsil [style*="--line-clamp:"]{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp)}@media only screen and (max-width:1024px){.gps-608117581718487812.gps.gpsil [style*="--aspect-tablet:"]{aspect-ratio:var(--aspect-tablet)}.gps-608117581718487812.gps.gpsil [style*="--size-tablet:"]{font-size:var(--size-tablet)}.gps-608117581718487812.gps.gpsil [style*="--h-tablet:"]{height:var(--h-tablet)}.gps-608117581718487812.gps.gpsil [style*="--lh-tablet:"]{line-height:var(--lh-tablet)}.gps-608117581718487812.gps.gpsil [style*="--mb-tablet:"]{margin-bottom:var(--mb-tablet)}.gps-608117581718487812.gps.gpsil [style*="--ml-tablet:"]{margin-left:var(--ml-tablet)}.gps-608117581718487812.gps.gpsil [style*="--mt-tablet:"]{margin-top:var(--mt-tablet)}.gps-608117581718487812.gps.gpsil [style*="--pb-tablet:"]{padding-bottom:var(--pb-tablet)}.gps-608117581718487812.gps.gpsil [style*="--pl-tablet:"]{padding-left:var(--pl-tablet)}.gps-608117581718487812.gps.gpsil [style*="--pr-tablet:"]{padding-right:var(--pr-tablet)}.gps-608117581718487812.gps.gpsil [style*="--pt-tablet:"]{padding-top:var(--pt-tablet)}.gps-608117581718487812.gps.gpsil [style*="--ta-tablet:"]{text-align:var(--ta-tablet)}.gps-608117581718487812.gps.gpsil [style*="--w-tablet:"]{width:var(--w-tablet)}.gps-608117581718487812.gps.gpsil [style*="--line-clamp-tablet:"]{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp-tablet)}}@media only screen and (max-width:767px){.gps-608117581718487812.gps.gpsil [style*="--aspect-mobile:"]{aspect-ratio:var(--aspect-mobile)}.gps-608117581718487812.gps.gpsil [style*="--size-mobile:"]{font-size:var(--size-mobile)}.gps-608117581718487812.gps.gpsil [style*="--gtc-mobile:"]{grid-template-columns:var(--gtc-mobile)}.gps-608117581718487812.gps.gpsil [style*="--h-mobile:"]{height:var(--h-mobile)}.gps-608117581718487812.gps.gpsil [style*="--lh-mobile:"]{line-height:var(--lh-mobile)}.gps-608117581718487812.gps.gpsil [style*="--mb-mobile:"]{margin-bottom:var(--mb-mobile)}.gps-608117581718487812.gps.gpsil [style*="--ml-mobile:"]{margin-left:var(--ml-mobile)}.gps-608117581718487812.gps.gpsil [style*="--mt-mobile:"]{margin-top:var(--mt-mobile)}.gps-608117581718487812.gps.gpsil [style*="--pb-mobile:"]{padding-bottom:var(--pb-mobile)}.gps-608117581718487812.gps.gpsil [style*="--pl-mobile:"]{padding-left:var(--pl-mobile)}.gps-608117581718487812.gps.gpsil [style*="--pr-mobile:"]{padding-right:var(--pr-mobile)}.gps-608117581718487812.gps.gpsil [style*="--pt-mobile:"]{padding-top:var(--pt-mobile)}.gps-608117581718487812.gps.gpsil [style*="--ta-mobile:"]{text-align:var(--ta-mobile)}.gps-608117581718487812.gps.gpsil [style*="--w-mobile:"]{width:var(--w-mobile)}.gps-608117581718487812.gps.gpsil [style*="--line-clamp-mobile:"]{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp-mobile)}}.gps-608117581718487812 .gp-relative{position:relative}.gps-608117581718487812 .gp-mx-auto{margin-left:auto;margin-right:auto}.gps-608117581718487812 .gp-mb-0{margin-bottom:0}.gps-608117581718487812 .gp-inline-block{display:inline-block}.gps-608117581718487812 .gp-flex{display:flex}.gps-608117581718487812 .gp-grid{display:grid}.gps-608117581718487812 .gp-contents{display:contents}.gps-608117581718487812 .\!gp-hidden{display:none!important}.gps-608117581718487812 .gp-hidden{display:none}.gps-608117581718487812 .gp-h-auto{height:auto}.gps-608117581718487812 .gp-h-full{height:100%}.gps-608117581718487812 .gp-w-full{width:100%}.gps-608117581718487812 .gp-max-w-full{max-width:100%}.gps-608117581718487812 .gp-flex-none{flex:none}.gps-608117581718487812 .gp-grid-rows-\[1fr\]{grid-template-rows:1fr}.gps-608117581718487812 .gp-flex-col{flex-direction:column}.gps-608117581718487812 .gp-transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-608117581718487812 .gp-duration-200{transition-duration:.2s}.gps-608117581718487812 .gp-ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}@media (max-width:1024px){.gps-608117581718487812 .tablet\:\!gp-hidden{display:none!important}.gps-608117581718487812 .tablet\:gp-hidden{display:none}.gps-608117581718487812 .tablet\:gp-h-auto{height:auto}.gps-608117581718487812 .tablet\:gp-flex-none{flex:none}}@media (max-width:767px){.gps-608117581718487812 .mobile\:\!gp-hidden{display:none!important}.gps-608117581718487812 .mobile\:gp-hidden{display:none}.gps-608117581718487812 .mobile\:gp-h-auto{height:auto}.gps-608117581718487812 .mobile\:gp-flex-none{flex:none}}.gps-608117581718487812 .\[\&_\*\]\:gp-max-w-full *{max-width:100%}</style>
+    
+  
+    
+    
+    
+
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+
+    
+        <section
+          class="gp-mx-auto gp-max-w-full [&_*]:gp-max-w-full {% if section.settings.section_preload == "false" %}gps-lazy {% endif %}"
+          style="--w:100%;--w-tablet:calc(var(--g-ct-w, 100%) + 2 * var(--g-ct-p, 15px));--w-mobile:calc(var(--g-ct-w, 100%) + 2 * var(--g-ct-p, 15px));--pl:none;--pl-tablet:none;--pl-mobile:none;--pr:none;--pr-tablet:none;--pr-mobile:none"
+        >
+          
+    <gp-row gp-data='{"background":{"desktop":{"type":"color","color":"transparent","image":{"src":"","width":0,"height":0},"size":"cover","position":{"x":50,"y":50},"repeat":"no-repeat","attachment":"scroll"}},"uid":"gvL_W5aaHe"}' data-id="gvL_W5aaHe" id="gvL_W5aaHe" data-same-height-subgrid-container class="gvL_W5aaHe gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--blockPadding:base;--pt:0px;--pb:0px;--pt-tablet:0px;--pb-tablet:0px;--pt-mobile:0px;--pb-mobile:0px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--cg:16px;--rg:0px;--gtc:minmax(0, 12fr);--w:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="glRGPeIk1_ gp-relative gp-flex gp-flex-col"
+    >
+      
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{},"uid":"gheWoh7Tgl"}' data-id="gheWoh7Tgl" id="gheWoh7Tgl" data-same-height-subgrid-container class="gheWoh7Tgl gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--pl:20px;--pb:0px;--pr:20px;--mb-tablet:0px;--pl-tablet:20px;--pb-tablet:0px;--pr-tablet:20px;--mb-mobile:0px;--pl-mobile:20px;--pb-mobile:0px;--pr-mobile:20px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--cg:16px;--rg:0px;--gtc:minmax(0, 12fr);--w:757px;--h:auto;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="gRTZRGm6PP gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gOJsveCdPr"
+        class="gOJsveCdPr"
+        style="--ta:left;--mt:24px;--ml:0px;--mb:24px;--mt-tablet:19px;--ml-tablet:0px;--mb-tablet:20px;--mt-mobile:19px;--ml-mobile:0px;--mb-mobile:20px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Medium, 'SF-Pro-Text-Medium'), var(--g-font-body, body);--weight:400;--size:40px;--size-tablet:24px;--size-mobile:24px;--lh:44px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.4px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggOJsveCdPr_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gyHdyNY48m"
+        class="gyHdyNY48m"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggyHdyNY48m_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gtiQEoMhDY"
+        class="gtiQEoMhDY"
+        style="--ta:left;--mb:0px;--mb-tablet:0px;--mb-mobile:0px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggtiQEoMhDY_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    <div
+      role="presentation"
+      data-id="geCV6ICgbR"
+      style="--mt:40px;--ml:0px;--mb:40px;--mt-tablet:20px;--ml-tablet:0px;--mb-tablet:20px;--mt-mobile:20px;--ml-mobile:0px;--mb-mobile:20px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--ta:center"
+      class="gp-group/image gp-relative force-publish-1775232742030 gp-flex-none gp-h-auto mobile:gp-flex-none mobile:gp-h-auto tablet:gp-flex-none tablet:gp-h-auto geCV6ICgbR"
+    >
+      <div
+        
+        style="border-radius:inherit;--jc:center"
+        class="gp-h-full gp-w-full gp-flex pointer-events-auto"
+      >
+        
+    <picture style="border-radius:inherit" class="gp-contents">
+      
+      <source media="(max-width: 767px)" data-srcSet="{{ section.settings.ggeCV6ICgbR_srcSet_desktop_src }}" srcset="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnLTEwOTYtNjEyIj4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjcwJSIgLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSIxMDk2IiBoZWlnaHQ9IjYxMiIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIGZpbGw9InVybCgjZy0xMDk2LTYxMikiIC8+CiAgICA8YW5pbWF0ZSB4bGluazpocmVmPSIjciIgYXR0cmlidXRlTmFtZT0ieCIgZnJvbT0iLTEwOTYiIHRvPSIxMDk2IiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" />
+      <source media="(max-width: 1024px)" data-srcSet="{{ section.settings.ggeCV6ICgbR_srcSet_desktop_src }}" srcset="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnLTEwOTYtNjEyIj4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjcwJSIgLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSIxMDk2IiBoZWlnaHQ9IjYxMiIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIGZpbGw9InVybCgjZy0xMDk2LTYxMikiIC8+CiAgICA8YW5pbWF0ZSB4bGluazpocmVmPSIjciIgYXR0cmlidXRlTmFtZT0ieCIgZnJvbT0iLTEwOTYiIHRvPSIxMDk2IiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" />
+    
+      
+      <img
+        base-src="{{ section.settings.ggeCV6ICgbR_srcSet_desktop_src }}" quality-type="{&quot;desktop&quot;:&quot;high&quot;}" quality-percent="{&quot;desktop&quot;:100}"
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnLTEwOTYtNjEyIj4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjcwJSIgLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSIxMDk2IiBoZWlnaHQ9IjYxMiIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIGZpbGw9InVybCgjZy0xMDk2LTYxMikiIC8+CiAgICA8YW5pbWF0ZSB4bGluazpocmVmPSIjciIgYXR0cmlidXRlTmFtZT0ieCIgZnJvbT0iLTEwOTYiIHRvPSIxMDk2IiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" data-src="{{ section.settings.ggeCV6ICgbR_srcSet_desktop_src }}"
+        alt=""
+        width="100%"
+        style="--aspect:auto;--aspect-tablet:auto;--aspect-mobile:auto;--objf:cover;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:auto;--h-tablet:auto;--h-mobile:auto;--b:none;--bc:#000000;--bw:1px 1px 1px 1px;--radiusType:none;--shadow:none"
+        class="gp-inline-block gp-w-full gp-max-w-full gp_lazyload"
+      />
+    
+    </picture>
+  
+      </div>
+    </div>
+  
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="g17M_MfMBN"
+        class="g17M_MfMBN"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg17M_MfMBN_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gjmW0ig-xO"
+        class="gjmW0ig-xO"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggjmW0ig-xO_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gsI6ZcWu-i"
+        class="gsI6ZcWu-i"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggsI6ZcWu-i_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gDeVCNF9ld"
+        class="gDeVCNF9ld"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggDeVCNF9ld_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="g7LDf-Qh87"
+        class="g7LDf-Qh87"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg7LDf-Qh87_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gGpBlrdOku"
+        class="gGpBlrdOku"
+        style="--ta:left;--mb:0px;--mb-tablet:0px;--mb-mobile:0px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggGpBlrdOku_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="ghSAU_L2-C"
+        class="ghSAU_L2-C"
+        style="--ta:left;--mt:24px;--ml:0px;--mb:24px;--mt-tablet:19px;--ml-tablet:0px;--mb-tablet:20px;--mt-mobile:19px;--ml-mobile:0px;--mb-mobile:20px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Medium, 'SF-Pro-Text-Medium'), var(--g-font-body, body);--weight:400;--size:40px;--size-tablet:24px;--size-mobile:24px;--lh:44px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.4px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gghSAU_L2-C_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gE9ybVXbf8"
+        class="gE9ybVXbf8"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggE9ybVXbf8_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="g8F9vc699Q"
+        class="g8F9vc699Q"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg8F9vc699Q_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="g47TI_3aVW"
+        class="g47TI_3aVW"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg47TI_3aVW_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="g7l-bZmrYE"
+        class="g7l-bZmrYE"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg7l-bZmrYE_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gbKX78bFrr"
+        class="gbKX78bFrr"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggbKX78bFrr_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gdHGvhx2ah"
+        class="gdHGvhx2ah"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggdHGvhx2ah_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gMRJy8OQm3"
+        class="gMRJy8OQm3"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggMRJy8OQm3_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gb_hnfxgci"
+        class="gb_hnfxgci"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggb_hnfxgci_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gk7ow-v0zJ"
+        class="gk7ow-v0zJ"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggk7ow-v0zJ_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gSlhuwBsJI"
+        class="gSlhuwBsJI"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggSlhuwBsJI_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gqSrI5rCUq"
+        class="gqSrI5rCUq"
+        style="--ta:left;--mb:0px;--mb-tablet:0px;--mb-mobile:0px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggqSrI5rCUq_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    <div
+      role="presentation"
+      data-id="gqQj8Itgva"
+      style="--mt:40px;--ml:0px;--mb:40px;--mt-tablet:20px;--ml-tablet:0px;--mb-tablet:20px;--mt-mobile:20px;--ml-mobile:0px;--mb-mobile:20px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--ta:center"
+      class="gp-group/image gp-relative force-publish-1775232742053 gp-flex-none gp-h-auto mobile:gp-flex-none mobile:gp-h-auto tablet:gp-flex-none tablet:gp-h-auto gqQj8Itgva"
+    >
+      <div
+        
+        style="border-radius:inherit;--jc:center"
+        class="gp-h-full gp-w-full gp-flex pointer-events-auto"
+      >
+        
+    <picture style="border-radius:inherit" class="gp-contents">
+      
+      <source media="(max-width: 767px)" data-srcSet="{{ section.settings.ggqQj8Itgva_srcSet_desktop_src }}" srcset="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnLTEwOTYtNjEyIj4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjcwJSIgLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSIxMDk2IiBoZWlnaHQ9IjYxMiIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIGZpbGw9InVybCgjZy0xMDk2LTYxMikiIC8+CiAgICA8YW5pbWF0ZSB4bGluazpocmVmPSIjciIgYXR0cmlidXRlTmFtZT0ieCIgZnJvbT0iLTEwOTYiIHRvPSIxMDk2IiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" />
+      <source media="(max-width: 1024px)" data-srcSet="{{ section.settings.ggqQj8Itgva_srcSet_desktop_src }}" srcset="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnLTEwOTYtNjEyIj4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjcwJSIgLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSIxMDk2IiBoZWlnaHQ9IjYxMiIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIGZpbGw9InVybCgjZy0xMDk2LTYxMikiIC8+CiAgICA8YW5pbWF0ZSB4bGluazpocmVmPSIjciIgYXR0cmlidXRlTmFtZT0ieCIgZnJvbT0iLTEwOTYiIHRvPSIxMDk2IiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" />
+    
+      
+      <img
+        base-src="{{ section.settings.ggqQj8Itgva_srcSet_desktop_src }}" quality-type="{&quot;desktop&quot;:&quot;high&quot;}" quality-percent="{&quot;desktop&quot;:100}"
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnLTEwOTYtNjEyIj4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjcwJSIgLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSIxMDk2IiBoZWlnaHQ9IjYxMiIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIGZpbGw9InVybCgjZy0xMDk2LTYxMikiIC8+CiAgICA8YW5pbWF0ZSB4bGluazpocmVmPSIjciIgYXR0cmlidXRlTmFtZT0ieCIgZnJvbT0iLTEwOTYiIHRvPSIxMDk2IiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" data-src="{{ section.settings.ggqQj8Itgva_srcSet_desktop_src }}"
+        alt=""
+        width="100%"
+        style="--aspect:auto;--aspect-tablet:auto;--aspect-mobile:auto;--objf:cover;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:auto;--h-tablet:auto;--h-mobile:auto;--b:none;--bc:#000000;--bw:1px 1px 1px 1px;--radiusType:none;--shadow:none"
+        class="gp-inline-block gp-w-full gp-max-w-full gp_lazyload"
+      />
+    
+    </picture>
+  
+      </div>
+    </div>
+  
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="g3uURn9i8K"
+        class="g3uURn9i8K"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg3uURn9i8K_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gbcOUxipUL"
+        class="gbcOUxipUL"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggbcOUxipUL_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gYSu2ZGAfW"
+        class="gYSu2ZGAfW"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggYSu2ZGAfW_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="g-yUHcdK2_"
+        class="g-yUHcdK2_"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg-yUHcdK2__text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gHS5txqzxC"
+        class="gHS5txqzxC"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggHS5txqzxC_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gORDTN0FNc"
+        class="gORDTN0FNc"
+        style="--ta:left;--mb:0px;--mb-tablet:0px;--mb-mobile:0px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggORDTN0FNc_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gZMmeptkQd"
+        class="gZMmeptkQd"
+        style="--ta:left;--mt:24px;--ml:0px;--mb:24px;--mt-tablet:19px;--ml-tablet:0px;--mb-tablet:20px;--mt-mobile:19px;--ml-mobile:0px;--mb-mobile:20px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Medium, 'SF-Pro-Text-Medium'), var(--g-font-body, body);--weight:400;--size:40px;--size-tablet:24px;--size-mobile:24px;--lh:44px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.4px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggZMmeptkQd_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="g9gKAnrV9G"
+        class="g9gKAnrV9G"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg9gKAnrV9G_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="ghdNsf223i"
+        class="ghdNsf223i"
+        style="--ta:left;--mb:0px;--mb-tablet:0px;--mb-mobile:0px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gghdNsf223i_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    <div
+      role="presentation"
+      data-id="gEUQoAQZii"
+      style="--mt:40px;--ml:0px;--mb:40px;--mt-tablet:20px;--ml-tablet:0px;--mb-tablet:20px;--mt-mobile:20px;--ml-mobile:0px;--mb-mobile:20px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--ta:center"
+      class="gp-group/image gp-relative force-publish-1775232742061 gp-flex-none gp-h-auto mobile:gp-flex-none mobile:gp-h-auto tablet:gp-flex-none tablet:gp-h-auto gEUQoAQZii"
+    >
+      <div
+        
+        style="border-radius:inherit;--jc:center"
+        class="gp-h-full gp-w-full gp-flex pointer-events-auto"
+      >
+        
+    <picture style="border-radius:inherit" class="gp-contents">
+      
+      <source media="(max-width: 767px)" data-srcSet="{{ section.settings.ggEUQoAQZii_srcSet_desktop_src }}" srcset="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnLTEwOTYtNjEyIj4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjcwJSIgLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSIxMDk2IiBoZWlnaHQ9IjYxMiIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIGZpbGw9InVybCgjZy0xMDk2LTYxMikiIC8+CiAgICA8YW5pbWF0ZSB4bGluazpocmVmPSIjciIgYXR0cmlidXRlTmFtZT0ieCIgZnJvbT0iLTEwOTYiIHRvPSIxMDk2IiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" />
+      <source media="(max-width: 1024px)" data-srcSet="{{ section.settings.ggEUQoAQZii_srcSet_desktop_src }}" srcset="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnLTEwOTYtNjEyIj4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjcwJSIgLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSIxMDk2IiBoZWlnaHQ9IjYxMiIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIGZpbGw9InVybCgjZy0xMDk2LTYxMikiIC8+CiAgICA8YW5pbWF0ZSB4bGluazpocmVmPSIjciIgYXR0cmlidXRlTmFtZT0ieCIgZnJvbT0iLTEwOTYiIHRvPSIxMDk2IiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" />
+    
+      
+      <img
+        base-src="{{ section.settings.ggEUQoAQZii_srcSet_desktop_src }}" quality-type="{&quot;desktop&quot;:&quot;high&quot;}" quality-percent="{&quot;desktop&quot;:100}"
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnLTEwOTYtNjEyIj4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjcwJSIgLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSIxMDk2IiBoZWlnaHQ9IjYxMiIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIGZpbGw9InVybCgjZy0xMDk2LTYxMikiIC8+CiAgICA8YW5pbWF0ZSB4bGluazpocmVmPSIjciIgYXR0cmlidXRlTmFtZT0ieCIgZnJvbT0iLTEwOTYiIHRvPSIxMDk2IiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" data-src="{{ section.settings.ggEUQoAQZii_srcSet_desktop_src }}"
+        alt=""
+        width="100%"
+        style="--aspect:auto;--aspect-tablet:auto;--aspect-mobile:auto;--objf:cover;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:auto;--h-tablet:auto;--h-mobile:auto;--b:none;--bc:#000000;--bw:1px 1px 1px 1px;--radiusType:none;--shadow:none"
+        class="gp-inline-block gp-w-full gp-max-w-full gp_lazyload"
+      />
+    
+    </picture>
+  
+      </div>
+    </div>
+  
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gnm2nFNJmx"
+        class="gnm2nFNJmx"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggnm2nFNJmx_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gSKlyQkfA_"
+        class="gSKlyQkfA_"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggSKlyQkfA__text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gZ0JvWgbrV"
+        class="gZ0JvWgbrV"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggZ0JvWgbrV_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gaSWmEfj5G"
+        class="gaSWmEfj5G"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggaSWmEfj5G_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gLFMYOHAFI"
+        class="gLFMYOHAFI"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggLFMYOHAFI_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gMRPP363FY"
+        class="gMRPP363FY"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggMRPP363FY_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gjFSXzl7r5"
+        class="gjFSXzl7r5"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggjFSXzl7r5_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="goGHTyJXlw"
+        class="goGHTyJXlw"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggoGHTyJXlw_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{},"uid":"gefW4iclCX"}' data-id="gefW4iclCX" id="gefW4iclCX" data-same-height-subgrid-container class="gefW4iclCX gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--mb:24px;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--mb-tablet:0px;--pt-tablet:0px;--pl-tablet:0px;--pb-tablet:0px;--pr-tablet:0px;--mb-mobile:0px;--pt-mobile:0px;--pl-mobile:0px;--pb-mobile:0px;--pr-mobile:0px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--cg:16px;--rg:0px;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--h:100%;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:end"
+      class="g3f0aZFzc_ gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="guUcWlGBPG"
+        class="guUcWlGBPG"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gguUcWlGBPG_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{},"uid":"ggaGLwI-sq"}' data-id="ggaGLwI-sq" id="ggaGLwI-sq" data-same-height-subgrid-container class="ggaGLwI-sq gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--ml:auto;--pt:0px;--pl:var(--g-s-l);--pb:0px;--pr:var(--g-s-l);--ml-tablet:auto;--mb-tablet:0px;--pt-tablet:0px;--pl-tablet:var(--g-s-l);--pb-tablet:0px;--pr-tablet:var(--g-s-l);--ml-mobile:auto;--mb-mobile:0px;--pt-mobile:0px;--pl-mobile:var(--g-s-l);--pb-mobile:0px;--pr-mobile:var(--g-s-l);--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:solid;--bw:0px 0px 0px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--cg:16px;--rg:0px;--gtc:minmax(0, auto);--gtc-mobile:minmax(0, auto);--w:91%;--h:auto;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="g8G9_ztTpm gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gaES5QSYfw"
+        class="gaES5QSYfw"
+        style="--ta:left;--mb:0px;--mb-tablet:0px;--mb-mobile:0px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggaES5QSYfw_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div>
+
+      
+    </gp-row>
+  
+        </section>
+      
+  
+    
+{% schema %}
+  {
+    
+    "name": "Section 6",
+    "tag": "section",
+    "class": "gps-608117581718487812 gps gpsil",
+    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/sheikhashadul/apps/gempages-cro/app/shopify/edit?pageType=GP_STATIC&editorId=608106698237805466&sectionId=608117581718487812)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"false"},{"type":"text","label":"Checksum","id":"checksum"},{"type":"html","id":"ggOJsveCdPr_text","label":"ggOJsveCdPr_text","default":"<p>The Invisible Wall No Pill Can Penetrate</p>"},{"type":"html","id":"ggyHdyNY48m_text","label":"ggyHdyNY48m_text","default":"<p>Biofilm is the key to understanding why nothing had worked for Sarah — and why nothing works for millions of Americans cycling through gut health products.</p>"},{"type":"html","id":"ggtiQEoMhDY_text","label":"ggtiQEoMhDY_text","default":"<p>When parasites burrow into the intestinal wall, they secrete a sticky, mucus-like matrix around themselves. This biofilm is a fortress. Behind it, parasites are invisible to the immune system, undetectable by lab tests, and completely shielded from every oral supplement.</p>"},{"type":"html","id":"ggeCV6ICgbR_srcSet_desktop_src","label":"ggeCV6ICgbR_srcSet_desktop_src","default":"https://cdn.shopify.com/s/files/1/0993/4700/5732/files/istockphoto-1147544807-612x612_copy.jpg"},{"type":"html","id":"gg17M_MfMBN_text","label":"gg17M_MfMBN_text","default":"<p>When you swallow a capsule — any capsule — stomach acid breaks it down. The surviving compounds get absorbed into the bloodstream through the small intestine. By the time anything reaches the lower intestinal wall where parasites burrow, it's been diluted to near-nothing.</p>"},{"type":"html","id":"ggjmW0ig-xO_text","label":"ggjmW0ig-xO_text","default":"<p>The parasites behind the biofilm wall never even know you took anything.</p>"},{"type":"html","id":"ggsI6ZcWu-i_text","label":"ggsI6ZcWu-i_text","default":"<p>This is why elimination diets provide temporary relief but never resolve the bloating. This is why probiotic after probiotic fails. This is why people try cleanse after cleanse and quit saying \"it didn't work.\"</p>"},{"type":"html","id":"ggDeVCNF9ld_text","label":"ggDeVCNF9ld_text","default":"<p>It's not that the supplements are bad. It's that the oral delivery pathway cannot reach parasites embedded behind biofilm in the intestinal wall.</p>"},{"type":"html","id":"gg7LDf-Qh87_text","label":"gg7LDf-Qh87_text","default":"<p>Gary needed something that could bypass the stomach entirely and reach the gut wall directly.</p>"},{"type":"html","id":"ggGpBlrdOku_text","label":"ggGpBlrdOku_text","default":"<p>What he found had been hiding in plain sight for a thousand years.</p>"},{"type":"html","id":"gghSAU_L2-C_text","label":"gghSAU_L2-C_text","default":"<p>The Ancient Compound Big Pharma Can't Patent — And Prays You Never Discover</p>"},{"type":"html","id":"ggE9ybVXbf8_text","label":"ggE9ybVXbf8_text","default":"<p>The compound is called ricinoleic acid. It makes up 90% of castor oil's fatty acid content. It's been used medicinally since ancient Egypt. Hippocrates prescribed it. Your great-grandmother likely had a bottle in her cabinet.</p>"},{"type":"html","id":"gg8F9vc699Q_text","label":"gg8F9vc699Q_text","default":"<p>Here's what modern peer-reviewed research confirms:</p>"},{"type":"html","id":"gg47TI_3aVW_text","label":"gg47TI_3aVW_text","default":"<p>✅ Penetrates and dissolves biofilm matrices — breaking apart the protective shield</p>"},{"type":"html","id":"gg7l-bZmrYE_text","label":"gg7l-bZmrYE_text","default":"<p>✅ Stimulates lymphatic drainage in the abdominal cavity by up to 60%</p>"},{"type":"html","id":"ggbKX78bFrr_text","label":"ggbKX78bFrr_text","default":"<p>✅ Triggers smooth muscle contractions in the intestinal wall</p>"},{"type":"html","id":"ggdHGvhx2ah_text","label":"ggdHGvhx2ah_text","default":"<p>✅ Crosses tissue barriers when applied topically under sustained pressure</p>"},{"type":"html","id":"ggMRJy8OQm3_text","label":"ggMRJy8OQm3_text","default":"<p>✅ Creates a hostile environment for parasitic organisms in gut wall tissue</p>"},{"type":"html","id":"ggb_hnfxgci_text","label":"ggb_hnfxgci_text","default":"<p><strong>But here's the critical detail that changes everything:</strong></p>"},{"type":"html","id":"ggk7ow-v0zJ_text","label":"ggk7ow-v0zJ_text","default":"<p><span style=\"color:#B22121;\"><strong>You cannot swallow castor oil and get these benefits.</strong></span></p>"},{"type":"html","id":"ggSlhuwBsJI_text","label":"ggSlhuwBsJI_text","default":"<p>When castor oil is ingested, stomach acid converts ricinoleic acid into a simple laxative compound. That's all you get — cramping, diarrhea, and misery. The biofilm-dissolving properties, the lymphatic stimulation, the antimicrobial effects? All destroyed by digestion.</p>"},{"type":"html","id":"ggqSrI5rCUq_text","label":"ggqSrI5rCUq_text","default":"<p><strong>Ricinoleic acid must be delivered transdermally — through the skin.</strong></p>"},{"type":"html","id":"ggqQj8Itgva_srcSet_desktop_src","label":"ggqQj8Itgva_srcSet_desktop_src","default":"https://cdn.shopify.com/s/files/1/0993/4700/5732/files/istockphoto-1147544807-612x612_copy.jpg"},{"type":"html","id":"gg3uURn9i8K_text","label":"gg3uURn9i8K_text","default":"<p>Through the skin, it bypasses stomach acid entirely. It absorbs through the dermal layers, penetrates into the intestinal wall tissue, and arrives at the biofilm matrix intact. Full-strength. Undiluted.</p>"},{"type":"html","id":"ggbcOUxipUL_text","label":"ggbcOUxipUL_text","default":"<p>But transdermal delivery requires three specific conditions:</p>"},{"type":"html","id":"ggYSu2ZGAfW_text","label":"ggYSu2ZGAfW_text","default":"<p>1. Sustained contact — six to eight hours minimum. Overnight. While the body's temperature rises and pores open.</p>"},{"type":"html","id":"gg-yUHcdK2__text","label":"gg-yUHcdK2__text","default":"<p>2. Compression — consistent pressure against the skin increases absorption 2 to 4 times. The castor oil must be pressed into the abdominal skin, not loosely draped.</p>"},{"type":"html","id":"ggHS5txqzxC_text","label":"ggHS5txqzxC_text","default":"<p>3. Body heat — heat opens pores and accelerates transdermal delivery. During sleep, core temperature rises naturally. A properly fitted pack captures that heat.</p>"},{"type":"html","id":"ggORDTN0FNc_text","label":"ggORDTN0FNc_text","default":"<p>This is why our grandparents used castor oil PACKS — not pills. Cloth soaked in castor oil, wrapped around the abdomen, worn to bed.<br>They didn't have the science. They just knew it worked. And somewhere between their generation and ours, we forgot.</p>"},{"type":"html","id":"ggZMmeptkQd_text","label":"ggZMmeptkQd_text","default":"<p>The System That Made Transdermal Delivery Possible</p>"},{"type":"html","id":"gg9gKAnrV9G_text","label":"gg9gKAnrV9G_text","default":"<p>Sarah's sister Diane found it first — in a gut health community online. Women describing overnight castor oil packs that actually worked. No mess. No complication. Results within weeks.</p>"},{"type":"html","id":"gghdNsf223i_text","label":"gghdNsf223i_text","default":"<p>The product was called Tavio.</p>"},{"type":"html","id":"ggEUQoAQZii_srcSet_desktop_src","label":"ggEUQoAQZii_srcSet_desktop_src","default":"https://cdn.shopify.com/s/files/1/0993/4700/5732/files/istockphoto-1147544807-612x612_copy.jpg"},{"type":"html","id":"ggnm2nFNJmx_text","label":"ggnm2nFNJmx_text","default":"<p>A purpose-built system engineered for overnight transdermal castor oil delivery:</p>"},{"type":"html","id":"ggSKlyQkfA__text","label":"ggSKlyQkfA__text","default":"<p>✅ Organic cotton inner layer — absorbs and holds castor oil evenly without dripping or leaking</p>"},{"type":"html","id":"ggZ0JvWgbrV_text","label":"ggZ0JvWgbrV_text","default":"<p>✅ Leak-proof barrier — sheets stay completely clean. Every night.</p>"},{"type":"html","id":"ggaSWmEfj5G_text","label":"ggaSWmEfj5G_text","default":"<p>✅ Adjustable compression wrap — provides sustained pressure for deeper transdermal absorption</p>"},{"type":"html","id":"ggLFMYOHAFI_text","label":"ggLFMYOHAFI_text","default":"<p>✅ Stays in place all night — even for restless sleepers</p>"},{"type":"html","id":"ggMRPP363FY_text","label":"ggMRPP363FY_text","default":"<p>✅ Body heat capture — no external heating pad needed. No auto-shutoff.</p>"},{"type":"html","id":"ggjFSXzl7r5_text","label":"ggjFSXzl7r5_text","default":"<p>✅ 60-second application — apply oil, wrap the pack, go to sleep</p>"},{"type":"html","id":"ggoGHTyJXlw_text","label":"ggoGHTyJXlw_text","default":"<p>✅ Reusable for months — one purchase, not a subscription</p>"},{"type":"html","id":"gguUcWlGBPG_text","label":"gguUcWlGBPG_text","default":"<p>Gary ordered it immediately. Sarah put it on that night.</p>"},{"type":"html","id":"ggaES5QSYfw_text","label":"ggaES5QSYfw_text","default":"<p><i>\"I expected some complicated ritual. I applied the oil, wrapped the pack, went to sleep. Took it off in the morning. Sheets clean. That's it. That's the whole thing.\" — </i>Sarah Whitfield</p>"}],
+    "blocks": [{"type": "@app"}],
+    "locales": {}
+  }
+{% endschema %}

@@ -1,0 +1,82 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "gp_section_608314444715393946": {
+      "settings": {
+        "checksum": "64376105a790fd7b68ce9e9e94d5665820d744a89629ce36744959dd90419c67_1_1_0_0__1",
+        "gg-9Vx-KffC_text": "<p>Moood® Colostrum is a naturally rich source of bioactive nutrients that support physical performance and recovery. Its naturally occurring growth factors help support healthy energy balance and cellular metabolism — without relying on stimulants.</p>",
+        "gg9b7OIHQGT_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/BEFOREAFTER_4.png",
+        "ggAjckt9tOC_text": "<p>[ SCIENCE &amp; RESULTS ]</p>",
+        "ggJ3RhV8vPg_text": "<strong>Gut Health</strong>",
+        "ggNuhTu4Xtk_text": "<p>Moood® Colostrum is a naturally rich source of bioactive nutrients that support physical performance and recovery. Its naturally occurring growth factors help support healthy energy balance and cellular metabolism — without relying on stimulants.</p>",
+        "ggVSUJijdZN_text": "<p>Moood® Colostrum delivers a naturally occurring matrix of over 400 bioactive compounds — including peptides, antioxidants, prebiotics, growth factors, and essential micronutrients — that work together to support whole-body balance.</p>",
+        "ggVjiqWlqqU_text": "Transformational Results",
+        "ggc7WDKXAf6_text": "<strong>Skin &amp; Hair</strong>",
+        "ggcSu2QBfJ2_text": "<p>Moood® Colostrum supports digestive health by nourishing the gut at its foundation — helping reinforce the natural barrier that includes the gut lining, immune support, protective layers, and the gut ecosystem itself.</p>",
+        "gghGx5skO3a_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/BEFOREAFTER.png",
+        "ggkZD_ECZi7_text": "<p>Moood® Colostrum delivers a naturally occurring matrix of over 400 bioactive compounds — including peptides, antioxidants, prebiotics, growth factors, and essential micronutrients — that work together to support whole-body balance.</p>",
+        "ggkql8I8M38_text": "<strong>Performance</strong>",
+        "ggo34DHEFZo_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/hf_20260224_142000_7d284087-cdd1-4b6c-b0b4-0aca096c2dfc.jpg",
+        "ggro34S7j_x_text": "<p>Moood® Colostrum supports digestive health by nourishing the gut at its foundation — helping reinforce the natural barrier that includes the gut lining, immune support, protective layers, and the gut ecosystem itself.</p>",
+        "ggtXXdzOc3z_childItem_0": "<p>Gut Health</p>",
+        "ggtXXdzOc3z_childItem_1": "<p>Performance</p>",
+        "ggtXXdzOc3z_childItem_2": "<p>Skin &amp; Hair</p>",
+        "section_preload": "true"
+      },
+      "type": "gp-section-608314444715393946"
+    },
+    "gp_section_608314771535561476": {
+      "settings": {
+        "checksum": "7945d7a6a333341171c756c25ad2383013db4dab5a2f41e589c7693dede3c760_1_1_0_0__1",
+        "gg4fZP21eML_text": "<p>ARMRA Colostrum™ promotes digestive health by naturally fortifying all four layers of your gut mucosal barrier, including the gut wall, immune cells and antibodies, mucus layer, and the gut ecosystem.</p>",
+        "gg5h1R6V_0J_text": "<p><strong>Reported significant improvement in regularity†</strong></p>",
+        "gg6dhcpbCYL_text": "<p>ARMRA Colostrum™ is a natural powerhouse of over 400 bioactive nutrients, supporting performance and fitness recovery. Growth factors, like IGF-1, support healthy glucose balance and fuel cellular metabolism.</p>",
+        "ggAILFtSUhQ_text": "<p><strong>Reported feeling less sore after workouts*&nbsp;</strong></p>",
+        "ggCTa-C8hc8_text": "Transformational Results",
+        "ggDh9FKWiLC_text": "<p><strong>Reported significant improvement in regularity†</strong></p>",
+        "ggFO5d_I4c9_text": "<p><strong>Reported feeling less sore</strong></p><p><strong>after workouts*&nbsp;</strong></p>",
+        "ggGC7eZxFJs_text": "<p><strong>Reported less gut discomfort after meals†</strong></p>",
+        "ggJVlz3Tzgw_text": "<p>ARMRA Colostrum™ delivers a matrix of over 400 bioactive nutrients, including exosomes, antioxidants, whole food prebiotics, growth factors, vitamins, and regenerative peptides.<br>&nbsp;</p>",
+        "ggKeR0EbT9k_text": "<strong>Skin &amp; Hair</strong>",
+        "ggNIeiTZWX5_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/Frame_1533210045_1.png",
+        "ggRpDDXWJ-8_text": "<p>[ SCIENCE &amp; RESULTS ]</p>",
+        "ggSkF1vQ-Um_text": "<p><strong>Reported thicker hair†</strong></p>",
+        "ggVezR_C9UD_text": "<strong>Performance</strong>",
+        "ggWwH9AbuM4_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/Frame_1533210045_1.jpg",
+        "ggYdxSUMS5k_text": "<p>ARMRA Colostrum™ is a natural powerhouse of over 400 bioactive nutrients, supporting performance and fitness recovery. Growth factors, like IGF-1, support healthy glucose balance and fuel cellular metabolism.</p>",
+        "gga0wWUJymt_text": "<p><strong>Reported less gut discomfort after meals†</strong></p>",
+        "ggaW9JRzcjW_text": "<p><strong>Reported less gas and better overall digestive well-being<sup>†</sup></strong></p>",
+        "ggcXVWJWVJE_text": "<p><strong>Experienced less</strong></p><p><strong>bloating†</strong></p>",
+        "ggce9sgk6xF_text": "<p><strong>Reported less gas and better overall digestive well-being<sup>†</sup></strong></p>",
+        "ggceWFQMHYb_text": "<p><strong>Reported feeling less</strong></p><p><strong>exhausted after working</strong></p><p><strong>out*&nbsp;</strong></p>",
+        "ggd7gvjGMpX_childItem_0": "<p>Gut Health</p>",
+        "ggd7gvjGMpX_childItem_1": "<p>Performance</p>",
+        "ggd7gvjGMpX_childItem_2": "<p>Skin &amp; Hair</p>",
+        "ggeUCLvWTh0_text": "<p><strong>Reported improvement in fitness recovery*</strong></p>",
+        "ggfVc-___VR_text": "<p><strong>Reported less gut discomfort after meals†</strong></p>",
+        "ggfsffUxwS2_text": "<p>ARMRA Colostrum™ delivers a matrix of over 400 bioactive nutrients, including exosomes, antioxidants, whole food prebiotics, growth factors, vitamins, and regenerative peptides.</p>",
+        "ggh1v8gbgXl_text": "<p><strong>Reported thicker hair†</strong></p>",
+        "gghevqNk7Ue_text": "<p><strong>Reported improvement in</strong></p><p><strong>fitness recovery*</strong></p>",
+        "ggoZI1uoZty_text": "<p><strong>Reported feeling less exhausted after working out*&nbsp;</strong></p>",
+        "ggodpjR9gV6_text": "<p><strong>Reported diminished wrinkles and improvement in their skin concerns†</strong></p>",
+        "ggr6ucLNhJK_text": "<strong>Gut Health</strong>",
+        "gguGsNDWZAZ_text": "<p>ARMRA Colostrum™ promotes digestive health by naturally fortifying all four layers of your gut mucosal barrier, including the gut wall, immune cells and antibodies, mucus layer, and the gut ecosystem.</p>",
+        "ggwsSwbbsJk_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0993/4700/5732/files/image_80.jpg",
+        "ggyPI9hr4Ne_text": "<p><strong>Experienced less bloating†</strong></p>"
+      },
+      "type": "gp-section-608314771535561476"
+    }
+  },
+  "order": [
+    "gp_section_608314444715393946",
+    "gp_section_608314771535561476"
+  ]
+}

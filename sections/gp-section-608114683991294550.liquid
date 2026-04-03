@@ -1,0 +1,835 @@
+
+    
+    
+    <style {% if section.settings.section_preload == "false" %} class="gps-link gps-style" type="text/disabled-css" {% endif %}>.gps-608114683991294550.gps.gpsil [style*="--as:"]{align-self:var(--as)}.gps-608114683991294550.gps.gpsil [style*="--aspect:"]{aspect-ratio:var(--aspect)}.gps-608114683991294550.gps.gpsil [style*="--bg:"]{background:var(--bg)}.gps-608114683991294550.gps.gpsil [style*="--bga:"]{background-attachment:var(--bga)}.gps-608114683991294550.gps.gpsil [style*="--bgc:"]{background-color:var(--bgc)}.gps-608114683991294550.gps.gpsil [style*="--bgi:"]{background-image:var(--bgi)}.gps-608114683991294550.gps.gpsil [style*="--bgp:"]{background-position:var(--bgp)}.gps-608114683991294550.gps.gpsil [style*="--bgr:"]{background-repeat:var(--bgr)}.gps-608114683991294550.gps.gpsil [style*="--bgs:"]{background-size:var(--bgs)}.gps-608114683991294550.gps.gpsil [style*="--b:"]{border:var(--b)}.gps-608114683991294550.gps.gpsil [style*="--bb:"]{border-bottom:var(--bb)}.gps-608114683991294550.gps.gpsil [style*="--bc:"]{border-color:var(--bc)}.gps-608114683991294550.gps.gpsil [style*="--bblr:"]{border-bottom-left-radius:var(--bblr)}.gps-608114683991294550.gps.gpsil [style*="--bbrr:"]{border-bottom-right-radius:var(--bbrr)}.gps-608114683991294550.gps.gpsil [style*="--bl:"]{border-left:var(--bl)}.gps-608114683991294550.gps.gpsil [style*="--radius:"]{border-radius:var(--radius)}.gps-608114683991294550.gps.gpsil [style*="--bs:"]{border-style:var(--bs)}.gps-608114683991294550.gps.gpsil [style*="--bt:"]{border-top:var(--bt)}.gps-608114683991294550.gps.gpsil [style*="--btlr:"]{border-top-left-radius:var(--btlr)}.gps-608114683991294550.gps.gpsil [style*="--btrr:"]{border-top-right-radius:var(--btrr)}.gps-608114683991294550.gps.gpsil [style*="--bw:"]{border-width:var(--bw)}.gps-608114683991294550.gps.gpsil [style*="--shadow:"]{box-shadow:var(--shadow)}.gps-608114683991294550.gps.gpsil [style*="--c:"]{color:var(--c)}.gps-608114683991294550.gps.gpsil [style*="--cg:"]{-moz-column-gap:var(--cg);column-gap:var(--cg)}.gps-608114683991294550.gps.gpsil [style*="--ff:"]{font-family:var(--ff)}.gps-608114683991294550.gps.gpsil [style*="--size:"]{font-size:var(--size)}.gps-608114683991294550.gps.gpsil [style*="--weight:"]{font-weight:var(--weight)}.gps-608114683991294550.gps.gpsil [style*="--gtc:"]{grid-template-columns:var(--gtc)}.gps-608114683991294550.gps.gpsil [style*="--h:"]{height:var(--h)}.gps-608114683991294550.gps.gpsil [style*="--jc:"]{justify-content:var(--jc)}.gps-608114683991294550.gps.gpsil [style*="--ls:"]{letter-spacing:var(--ls)}.gps-608114683991294550.gps.gpsil [style*="--lh:"]{line-height:var(--lh)}.gps-608114683991294550.gps.gpsil [style*="--tdt:"]{text-decoration-thickness:var(--tdt)}.gps-608114683991294550.gps.gpsil [style*="--tdl:"]{text-decoration-line:var(--tdl)}.gps-608114683991294550.gps.gpsil [style*="--m:"]{margin:var(--m)}.gps-608114683991294550.gps.gpsil [style*="--mb:"]{margin-bottom:var(--mb)}.gps-608114683991294550.gps.gpsil [style*="--ml:"]{margin-left:var(--ml)}.gps-608114683991294550.gps.gpsil [style*="--mt:"]{margin-top:var(--mt)}.gps-608114683991294550.gps.gpsil [style*="--objf:"]{-o-object-fit:var(--objf);object-fit:var(--objf)}.gps-608114683991294550.gps.gpsil [style*="--op:"]{opacity:var(--op)}.gps-608114683991294550.gps.gpsil [style*="--o:"]{order:var(--o)}.gps-608114683991294550.gps.gpsil [style*="--pc:"]{place-content:var(--pc)}.gps-608114683991294550.gps.gpsil [style*="--p:"]{padding:var(--p)}.gps-608114683991294550.gps.gpsil [style*="--pb:"]{padding-bottom:var(--pb)}.gps-608114683991294550.gps.gpsil [style*="--pl:"]{padding-left:var(--pl)}.gps-608114683991294550.gps.gpsil [style*="--pr:"]{padding-right:var(--pr)}.gps-608114683991294550.gps.gpsil [style*="--pt:"]{padding-top:var(--pt)}.gps-608114683991294550.gps.gpsil [style*="--rg:"]{row-gap:var(--rg)}.gps-608114683991294550.gps.gpsil [style*="--ta:"]{text-align:var(--ta)}.gps-608114683991294550.gps.gpsil [style*="--ts:"]{text-shadow:var(--ts)}.gps-608114683991294550.gps.gpsil [style*="--tt:"]{text-transform:var(--tt)}.gps-608114683991294550.gps.gpsil [style*="--t:"]{transform:var(--t)}.gps-608114683991294550.gps.gpsil [style*="--w:"]{width:var(--w)}.gps-608114683991294550.gps.gpsil [style*="--line-clamp:"]{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp)}@media only screen and (max-width:1024px){.gps-608114683991294550.gps.gpsil [style*="--aspect-tablet:"]{aspect-ratio:var(--aspect-tablet)}.gps-608114683991294550.gps.gpsil [style*="--size-tablet:"]{font-size:var(--size-tablet)}.gps-608114683991294550.gps.gpsil [style*="--h-tablet:"]{height:var(--h-tablet)}.gps-608114683991294550.gps.gpsil [style*="--lh-tablet:"]{line-height:var(--lh-tablet)}.gps-608114683991294550.gps.gpsil [style*="--mb-tablet:"]{margin-bottom:var(--mb-tablet)}.gps-608114683991294550.gps.gpsil [style*="--ml-tablet:"]{margin-left:var(--ml-tablet)}.gps-608114683991294550.gps.gpsil [style*="--mt-tablet:"]{margin-top:var(--mt-tablet)}.gps-608114683991294550.gps.gpsil [style*="--pb-tablet:"]{padding-bottom:var(--pb-tablet)}.gps-608114683991294550.gps.gpsil [style*="--pl-tablet:"]{padding-left:var(--pl-tablet)}.gps-608114683991294550.gps.gpsil [style*="--pr-tablet:"]{padding-right:var(--pr-tablet)}.gps-608114683991294550.gps.gpsil [style*="--pt-tablet:"]{padding-top:var(--pt-tablet)}.gps-608114683991294550.gps.gpsil [style*="--ta-tablet:"]{text-align:var(--ta-tablet)}.gps-608114683991294550.gps.gpsil [style*="--w-tablet:"]{width:var(--w-tablet)}.gps-608114683991294550.gps.gpsil [style*="--line-clamp-tablet:"]{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp-tablet)}}@media only screen and (max-width:767px){.gps-608114683991294550.gps.gpsil [style*="--aspect-mobile:"]{aspect-ratio:var(--aspect-mobile)}.gps-608114683991294550.gps.gpsil [style*="--size-mobile:"]{font-size:var(--size-mobile)}.gps-608114683991294550.gps.gpsil [style*="--gtc-mobile:"]{grid-template-columns:var(--gtc-mobile)}.gps-608114683991294550.gps.gpsil [style*="--h-mobile:"]{height:var(--h-mobile)}.gps-608114683991294550.gps.gpsil [style*="--lh-mobile:"]{line-height:var(--lh-mobile)}.gps-608114683991294550.gps.gpsil [style*="--mb-mobile:"]{margin-bottom:var(--mb-mobile)}.gps-608114683991294550.gps.gpsil [style*="--ml-mobile:"]{margin-left:var(--ml-mobile)}.gps-608114683991294550.gps.gpsil [style*="--mt-mobile:"]{margin-top:var(--mt-mobile)}.gps-608114683991294550.gps.gpsil [style*="--pb-mobile:"]{padding-bottom:var(--pb-mobile)}.gps-608114683991294550.gps.gpsil [style*="--pl-mobile:"]{padding-left:var(--pl-mobile)}.gps-608114683991294550.gps.gpsil [style*="--pr-mobile:"]{padding-right:var(--pr-mobile)}.gps-608114683991294550.gps.gpsil [style*="--pt-mobile:"]{padding-top:var(--pt-mobile)}.gps-608114683991294550.gps.gpsil [style*="--ta-mobile:"]{text-align:var(--ta-mobile)}.gps-608114683991294550.gps.gpsil [style*="--w-mobile:"]{width:var(--w-mobile)}.gps-608114683991294550.gps.gpsil [style*="--line-clamp-mobile:"]{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp-mobile)}}.gps-608114683991294550 .gp-relative{position:relative}.gps-608114683991294550 .gp-mx-auto{margin-left:auto;margin-right:auto}.gps-608114683991294550 .gp-mb-0{margin-bottom:0}.gps-608114683991294550 .gp-inline-block{display:inline-block}.gps-608114683991294550 .gp-flex{display:flex}.gps-608114683991294550 .gp-grid{display:grid}.gps-608114683991294550 .gp-contents{display:contents}.gps-608114683991294550 .\!gp-hidden{display:none!important}.gps-608114683991294550 .gp-hidden{display:none}.gps-608114683991294550 .gp-h-auto{height:auto}.gps-608114683991294550 .gp-h-full{height:100%}.gps-608114683991294550 .gp-w-full{width:100%}.gps-608114683991294550 .gp-max-w-full{max-width:100%}.gps-608114683991294550 .gp-flex-none{flex:none}.gps-608114683991294550 .gp-grid-rows-\[1fr\]{grid-template-rows:1fr}.gps-608114683991294550 .gp-flex-col{flex-direction:column}.gps-608114683991294550 .gp-transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-608114683991294550 .gp-duration-200{transition-duration:.2s}.gps-608114683991294550 .gp-ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}@media (max-width:1024px){.gps-608114683991294550 .tablet\:\!gp-hidden{display:none!important}.gps-608114683991294550 .tablet\:gp-hidden{display:none}.gps-608114683991294550 .tablet\:gp-h-auto{height:auto}.gps-608114683991294550 .tablet\:gp-flex-none{flex:none}}@media (max-width:767px){.gps-608114683991294550 .mobile\:\!gp-hidden{display:none!important}.gps-608114683991294550 .mobile\:gp-hidden{display:none}.gps-608114683991294550 .mobile\:gp-h-auto{height:auto}.gps-608114683991294550 .mobile\:gp-flex-none{flex:none}}.gps-608114683991294550 .\[\&_\*\]\:gp-max-w-full *{max-width:100%}</style>
+    
+  
+    
+    
+    
+
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+
+    
+        <section
+          class="gp-mx-auto gp-max-w-full [&_*]:gp-max-w-full {% if section.settings.section_preload == "false" %}gps-lazy {% endif %}"
+          style="--w:100%;--w-tablet:calc(var(--g-ct-w, 100%) + 2 * var(--g-ct-p, 15px));--w-mobile:calc(var(--g-ct-w, 100%) + 2 * var(--g-ct-p, 15px));--pl:none;--pl-tablet:none;--pl-mobile:none;--pr:none;--pr-tablet:none;--pr-mobile:none"
+        >
+          
+    <gp-row gp-data='{"background":{"desktop":{"type":"color","color":"transparent","image":{"src":"","width":0,"height":0},"size":"cover","position":{"x":50,"y":50},"repeat":"no-repeat","attachment":"scroll"}},"uid":"g62_Zi9Xnb"}' data-id="g62_Zi9Xnb" id="g62_Zi9Xnb" data-same-height-subgrid-container class="g62_Zi9Xnb gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--blockPadding:base;--pt:0px;--pb:0px;--pt-tablet:0px;--pb-tablet:0px;--pt-mobile:0px;--pb-mobile:0px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--cg:16px;--rg:0px;--gtc:minmax(0, 12fr);--w:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="g1fAQCH3hL gp-relative gp-flex gp-flex-col"
+    >
+      
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{},"uid":"gIv6jAArUR"}' data-id="gIv6jAArUR" id="gIv6jAArUR" data-same-height-subgrid-container class="gIv6jAArUR gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--pl:20px;--pb:0px;--pr:20px;--mb-tablet:0px;--pl-tablet:20px;--pb-tablet:0px;--pr-tablet:20px;--mb-mobile:0px;--pl-mobile:20px;--pb-mobile:0px;--pr-mobile:20px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--cg:16px;--rg:0px;--gtc:minmax(0, 12fr);--w:757px;--h:auto;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="g4aDOEnBoe gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gHXN6KqF2W"
+        class="gHXN6KqF2W"
+        style="--ta:left;--mt:24px;--ml:0px;--mb:24px;--mt-tablet:19px;--ml-tablet:0px;--mb-tablet:20px;--mt-mobile:19px;--ml-mobile:0px;--mb-mobile:20px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Medium, 'SF-Pro-Text-Medium'), var(--g-font-body, body);--weight:400;--size:40px;--size-tablet:24px;--size-mobile:24px;--lh:44px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.4px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggHXN6KqF2W_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gyuj3m3c4O"
+        class="gyuj3m3c4O"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggyuj3m3c4O_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="g9dt0zok7_"
+        class="g9dt0zok7_"
+        style="--ta:left;--mb:0px;--mb-tablet:0px;--mb-mobile:0px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg9dt0zok7__text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    <div
+      role="presentation"
+      data-id="gj06GNzH3Q"
+      style="--mt:40px;--ml:0px;--mb:40px;--mt-tablet:20px;--ml-tablet:0px;--mb-tablet:20px;--mt-mobile:20px;--ml-mobile:0px;--mb-mobile:20px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--ta:center"
+      class="gp-group/image gp-relative force-publish-1775232742473 gp-flex-none gp-h-auto mobile:gp-flex-none mobile:gp-h-auto tablet:gp-flex-none tablet:gp-h-auto gj06GNzH3Q"
+    >
+      <div
+        
+        style="border-radius:inherit;--jc:center"
+        class="gp-h-full gp-w-full gp-flex pointer-events-auto"
+      >
+        
+    <picture style="border-radius:inherit" class="gp-contents">
+      
+      <source media="(max-width: 767px)" data-srcSet="{{ section.settings.ggj06GNzH3Q_srcSet_desktop_src }}" srcset="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnLTEwOTYtNjEyIj4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjcwJSIgLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSIxMDk2IiBoZWlnaHQ9IjYxMiIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIGZpbGw9InVybCgjZy0xMDk2LTYxMikiIC8+CiAgICA8YW5pbWF0ZSB4bGluazpocmVmPSIjciIgYXR0cmlidXRlTmFtZT0ieCIgZnJvbT0iLTEwOTYiIHRvPSIxMDk2IiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" />
+      <source media="(max-width: 1024px)" data-srcSet="{{ section.settings.ggj06GNzH3Q_srcSet_desktop_src }}" srcset="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnLTEwOTYtNjEyIj4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjcwJSIgLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSIxMDk2IiBoZWlnaHQ9IjYxMiIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIGZpbGw9InVybCgjZy0xMDk2LTYxMikiIC8+CiAgICA8YW5pbWF0ZSB4bGluazpocmVmPSIjciIgYXR0cmlidXRlTmFtZT0ieCIgZnJvbT0iLTEwOTYiIHRvPSIxMDk2IiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" />
+    
+      
+      <img
+        base-src="{{ section.settings.ggj06GNzH3Q_srcSet_desktop_src }}" quality-type="{&quot;desktop&quot;:&quot;high&quot;}" quality-percent="{&quot;desktop&quot;:100}"
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnLTEwOTYtNjEyIj4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjcwJSIgLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSIxMDk2IiBoZWlnaHQ9IjYxMiIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIGZpbGw9InVybCgjZy0xMDk2LTYxMikiIC8+CiAgICA8YW5pbWF0ZSB4bGluazpocmVmPSIjciIgYXR0cmlidXRlTmFtZT0ieCIgZnJvbT0iLTEwOTYiIHRvPSIxMDk2IiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" data-src="{{ section.settings.ggj06GNzH3Q_srcSet_desktop_src }}"
+        alt=""
+        width="100%"
+        style="--aspect:auto;--aspect-tablet:auto;--aspect-mobile:auto;--objf:cover;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:auto;--h-tablet:auto;--h-mobile:auto;--b:none;--bc:#000000;--bw:1px 1px 1px 1px;--radiusType:none;--shadow:none"
+        class="gp-inline-block gp-w-full gp-max-w-full gp_lazyload"
+      />
+    
+    </picture>
+  
+      </div>
+    </div>
+  
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gopjhTuGvm"
+        class="gopjhTuGvm"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggopjhTuGvm_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gnCNIjY22n"
+        class="gnCNIjY22n"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggnCNIjY22n_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gZpXN4lA7p"
+        class="gZpXN4lA7p"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggZpXN4lA7p_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gkUxnOY1xy"
+        class="gkUxnOY1xy"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggkUxnOY1xy_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gbGZHnqM74"
+        class="gbGZHnqM74"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggbGZHnqM74_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gbfQTmkbn-"
+        class="gbfQTmkbn-"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggbfQTmkbn-_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gSG32grfwV"
+        class="gSG32grfwV"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggSG32grfwV_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gqHX3BDP0h"
+        class="gqHX3BDP0h"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggqHX3BDP0h_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="giqE_SBQZP"
+        class="giqE_SBQZP"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggiqE_SBQZP_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{},"uid":"gSVitR8Yry"}' data-id="gSVitR8Yry" id="gSVitR8Yry" data-same-height-subgrid-container class="gSVitR8Yry gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--mb:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--mb-tablet:0px;--pt-tablet:0px;--pl-tablet:0px;--pb-tablet:0px;--pr-tablet:0px;--mb-mobile:0px;--pt-mobile:0px;--pl-mobile:0px;--pb-mobile:0px;--pr-mobile:0px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--cg:16px;--rg:0px;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--h:100%;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:end"
+      class="gK9dj1ZmjZ gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gqo9rfLJ3B"
+        class="gqo9rfLJ3B"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggqo9rfLJ3B_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{},"uid":"gLE-RhJqZQ"}' data-id="gLE-RhJqZQ" id="gLE-RhJqZQ" data-same-height-subgrid-container class="gLE-RhJqZQ gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--ml:auto;--pt:0px;--pl:var(--g-s-l);--pb:0px;--pr:var(--g-s-l);--ml-tablet:auto;--mb-tablet:0px;--pt-tablet:0px;--pl-tablet:var(--g-s-l);--pb-tablet:0px;--pr-tablet:var(--g-s-l);--ml-mobile:auto;--mb-mobile:0px;--pt-mobile:0px;--pl-mobile:var(--g-s-l);--pb-mobile:0px;--pr-mobile:var(--g-s-l);--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:solid;--bw:0px 0px 0px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--cg:16px;--rg:0px;--gtc:minmax(0, auto);--gtc-mobile:minmax(0, auto);--w:91%;--h:auto;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="gtArgC0kYK gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gEpRg8mXN1"
+        class="gEpRg8mXN1"
+        style="--ta:left;--mb:0px;--mb-tablet:0px;--mb-mobile:0px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggEpRg8mXN1_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div>
+
+      
+    </gp-row>
+  
+  
+    <div
+      role="presentation"
+      data-id="grCD5lKcd4"
+      style="--mt:40px;--ml:0px;--mb:40px;--mt-tablet:20px;--ml-tablet:0px;--mb-tablet:20px;--mt-mobile:20px;--ml-mobile:0px;--mb-mobile:20px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--ta:center"
+      class="gp-group/image gp-relative force-publish-1775232742519 gp-flex-none gp-h-auto mobile:gp-flex-none mobile:gp-h-auto tablet:gp-flex-none tablet:gp-h-auto grCD5lKcd4"
+    >
+      <div
+        
+        style="border-radius:inherit;--jc:center"
+        class="gp-h-full gp-w-full gp-flex pointer-events-auto"
+      >
+        
+    <picture style="border-radius:inherit" class="gp-contents">
+      
+      <source media="(max-width: 767px)" data-srcSet="{{ section.settings.ggrCD5lKcd4_srcSet_desktop_src }}" srcset="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnLTEwOTYtNjEyIj4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjcwJSIgLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSIxMDk2IiBoZWlnaHQ9IjYxMiIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIGZpbGw9InVybCgjZy0xMDk2LTYxMikiIC8+CiAgICA8YW5pbWF0ZSB4bGluazpocmVmPSIjciIgYXR0cmlidXRlTmFtZT0ieCIgZnJvbT0iLTEwOTYiIHRvPSIxMDk2IiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" />
+      <source media="(max-width: 1024px)" data-srcSet="{{ section.settings.ggrCD5lKcd4_srcSet_desktop_src }}" srcset="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnLTEwOTYtNjEyIj4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjcwJSIgLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSIxMDk2IiBoZWlnaHQ9IjYxMiIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIGZpbGw9InVybCgjZy0xMDk2LTYxMikiIC8+CiAgICA8YW5pbWF0ZSB4bGluazpocmVmPSIjciIgYXR0cmlidXRlTmFtZT0ieCIgZnJvbT0iLTEwOTYiIHRvPSIxMDk2IiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" />
+    
+      
+      <img
+        base-src="{{ section.settings.ggrCD5lKcd4_srcSet_desktop_src }}" quality-type="{&quot;desktop&quot;:&quot;high&quot;}" quality-percent="{&quot;desktop&quot;:100}"
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJnLTEwOTYtNjEyIj4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjIwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjUwJSIgLz4KICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDUxLCA1MSwgNTEsIDApIiBvZmZzZXQ9IjcwJSIgLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSIxMDk2IiBoZWlnaHQ9IjYxMiIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMTA5NiIgaGVpZ2h0PSI2MTIiIGZpbGw9InVybCgjZy0xMDk2LTYxMikiIC8+CiAgICA8YW5pbWF0ZSB4bGluazpocmVmPSIjciIgYXR0cmlidXRlTmFtZT0ieCIgZnJvbT0iLTEwOTYiIHRvPSIxMDk2IiBkdXI9IjFzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgIC8+CiAgPC9zdmc+" data-src="{{ section.settings.ggrCD5lKcd4_srcSet_desktop_src }}"
+        alt=""
+        width="100%"
+        style="--aspect:auto;--aspect-tablet:auto;--aspect-mobile:auto;--objf:cover;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:auto;--h-tablet:auto;--h-mobile:auto;--b:none;--bc:#000000;--bw:1px 1px 1px 1px;--radiusType:none;--shadow:none"
+        class="gp-inline-block gp-w-full gp-max-w-full gp_lazyload"
+      />
+    
+    </picture>
+  
+      </div>
+    </div>
+  
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gd_M28mbfM"
+        class="gd_M28mbfM"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggd_M28mbfM_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gPdnArLvhG"
+        class="gPdnArLvhG"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggPdnArLvhG_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gdl6Kslfu2"
+        class="gdl6Kslfu2"
+        style="--ta:left;--mb:4px;--mb-tablet:4px;--mb-mobile:4px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggdl6Kslfu2_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gLOtGJQTjR"
+        class="gLOtGJQTjR"
+        style="--ta:left;--mb:4px;--mb-tablet:4px;--mb-mobile:4px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggLOtGJQTjR_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="g7sLIn1wnL"
+        class="g7sLIn1wnL"
+        style="--ta:left;--mb:4px;--mb-tablet:4px;--mb-mobile:4px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg7sLIn1wnL_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gTzoKU1z18"
+        class="gTzoKU1z18"
+        style="--ta:left;--mb:4px;--mb-tablet:4px;--mb-mobile:4px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggTzoKU1z18_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gU9xzpND8D"
+        class="gU9xzpND8D"
+        style="--ta:left;--mb:4px;--mb-tablet:4px;--mb-mobile:4px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggU9xzpND8D_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="guGzhmjnWF"
+        class="guGzhmjnWF"
+        style="--ta:left;--mb:4px;--mb-tablet:4px;--mb-mobile:4px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gguGzhmjnWF_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gB5I-3tNac"
+        class="gB5I-3tNac"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggB5I-3tNac_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{},"uid":"gFzSYEF4Qu"}' data-id="gFzSYEF4Qu" id="gFzSYEF4Qu" data-same-height-subgrid-container class="gFzSYEF4Qu gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--mb:24px;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--mb-tablet:24px;--pt-tablet:0px;--pl-tablet:0px;--pb-tablet:0px;--pr-tablet:0px;--mb-mobile:24px;--pt-mobile:0px;--pl-mobile:0px;--pb-mobile:0px;--pr-mobile:0px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--cg:16px;--rg:0px;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--h:100%;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:end"
+      class="g7_Xxku0KF gp-relative gp-flex gp-flex-col"
+    >
+      
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{},"uid":"gLds6b6U13"}' data-id="gLds6b6U13" id="gLds6b6U13" data-same-height-subgrid-container class="gLds6b6U13 gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--ml:auto;--pt:0px;--pl:var(--g-s-l);--pb:0px;--pr:var(--g-s-l);--ml-tablet:auto;--mb-tablet:0px;--pt-tablet:0px;--pl-tablet:var(--g-s-l);--pb-tablet:0px;--pr-tablet:var(--g-s-l);--ml-mobile:auto;--mb-mobile:0px;--pt-mobile:0px;--pl-mobile:var(--g-s-l);--pb-mobile:0px;--pr-mobile:var(--g-s-l);--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:solid;--bw:0px 0px 0px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--cg:16px;--rg:0px;--gtc:minmax(0, auto);--gtc-mobile:minmax(0, auto);--w:91%;--h:auto;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="gx-udoTrr- gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gM9Ybm7vZi"
+        class="gM9Ybm7vZi"
+        style="--ta:left;--mb:0px;--mb-tablet:0px;--mb-mobile:0px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggM9Ybm7vZi_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div>
+
+      
+    </gp-row>
+  
+  
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{},"uid":"gJ1uWF4t3-"}' data-id="gJ1uWF4t3-" id="gJ1uWF4t3-" data-same-height-subgrid-container class="gJ1uWF4t3- gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--mb:24px;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--mb-tablet:24px;--pt-tablet:0px;--pl-tablet:0px;--pb-tablet:0px;--pr-tablet:0px;--mb-mobile:24px;--pt-mobile:0px;--pl-mobile:0px;--pb-mobile:0px;--pr-mobile:0px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--cg:16px;--rg:0px;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--h:100%;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:end"
+      class="gPkyBgVmLc gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gJhmS1lkq8"
+        class="gJhmS1lkq8"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggJhmS1lkq8_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{},"uid":"gUWwHuAsb-"}' data-id="gUWwHuAsb-" id="gUWwHuAsb-" data-same-height-subgrid-container class="gUWwHuAsb- gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--ml:auto;--pt:0px;--pl:var(--g-s-l);--pb:0px;--pr:var(--g-s-l);--ml-tablet:auto;--mb-tablet:0px;--pt-tablet:0px;--pl-tablet:var(--g-s-l);--pb-tablet:0px;--pr-tablet:var(--g-s-l);--ml-mobile:auto;--mb-mobile:0px;--pt-mobile:0px;--pl-mobile:var(--g-s-l);--pb-mobile:0px;--pr-mobile:var(--g-s-l);--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:solid;--bw:0px 0px 0px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--cg:16px;--rg:0px;--gtc:minmax(0, auto);--gtc-mobile:minmax(0, auto);--w:91%;--h:auto;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="grrBwALh5l gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gnz7-QQmxU"
+        class="gnz7-QQmxU"
+        style="--ta:left;--mb:0px;--mb-tablet:0px;--mb-mobile:0px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggnz7-QQmxU_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div>
+
+      
+    </gp-row>
+  
+  
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gXwLwgmPXK"
+        class="gXwLwgmPXK"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggXwLwgmPXK_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gbs7JmAssX"
+        class="gbs7JmAssX"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggbs7JmAssX_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="g1XAPWYMYi"
+        class="g1XAPWYMYi"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg1XAPWYMYi_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gNlsCqdur4"
+        class="gNlsCqdur4"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggNlsCqdur4_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gKRwc6O5IK"
+        class="gKRwc6O5IK"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggKRwc6O5IK_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gnFBvleaj9"
+        class="gnFBvleaj9"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggnFBvleaj9_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gyvaFdF51S"
+        class="gyvaFdF51S"
+        style="--ta:left;--mb:24px;--mb-tablet:24px;--mb-mobile:24px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggyvaFdF51S_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{},"uid":"gsYPL4ixt6"}' data-id="gsYPL4ixt6" id="gsYPL4ixt6" data-same-height-subgrid-container class="gsYPL4ixt6 gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--mb:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--mb-tablet:0px;--pt-tablet:0px;--pl-tablet:0px;--pb-tablet:0px;--pr-tablet:0px;--mb-mobile:0px;--pt-mobile:0px;--pl-mobile:0px;--pb-mobile:0px;--pr-mobile:0px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--cg:16px;--rg:0px;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--h:100%;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:end"
+      class="gkZNdBkkgi gp-relative gp-flex gp-flex-col"
+    >
+      
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{},"uid":"glnA-ZvL3b"}' data-id="glnA-ZvL3b" id="glnA-ZvL3b" data-same-height-subgrid-container class="glnA-ZvL3b gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--ml:auto;--pt:0px;--pl:var(--g-s-l);--pb:0px;--pr:var(--g-s-l);--ml-tablet:auto;--mb-tablet:0px;--pt-tablet:0px;--pl-tablet:var(--g-s-l);--pb-tablet:0px;--pr-tablet:var(--g-s-l);--ml-mobile:auto;--mb-mobile:0px;--pt-mobile:0px;--pl-mobile:var(--g-s-l);--pb-mobile:0px;--pr-mobile:var(--g-s-l);--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:solid;--bw:0px 0px 0px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--cg:16px;--rg:0px;--gtc:minmax(0, auto);--gtc-mobile:minmax(0, auto);--w:91%;--h:auto;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="g7Gieclh99 gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gA9GWxHXdn"
+        class="gA9GWxHXdn"
+        style="--ta:left;--mb:0px;--mb-tablet:0px;--mb-mobile:0px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-tablet:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-SF-Pro-Text-Regular, 'SF-Pro-Text-Regular'), var(--g-font-body, body);--weight:400;--size:18.2px;--size-tablet:14px;--size-mobile:14px;--lh:23.4px;--lh-tablet:136.4%;--lh-mobile:136.4%;--ls:-0.18px;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggA9GWxHXdn_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div>
+
+      
+    </gp-row>
+  
+        </section>
+      
+  
+    
+{% schema %}
+  {
+    
+    "name": "Section 4",
+    "tag": "section",
+    "class": "gps-608114683991294550 gps gpsil",
+    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/sheikhashadul/apps/gempages-cro/app/shopify/edit?pageType=GP_STATIC&editorId=608106698237805466&sectionId=608114683991294550)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"false"},{"type":"text","label":"Checksum","id":"checksum"},{"type":"html","id":"ggHXN6KqF2W_text","label":"ggHXN6KqF2W_text","default":"<p>When Sarah Stopped Being Sarah</p>"},{"type":"html","id":"ggyuj3m3c4O_text","label":"ggyuj3m3c4O_text","default":"<p>Sarah Whitfield used to be the kind of woman who ran the room — sharp, funny, managed a 15-person marketing team, trained for half-marathons, never missed a school event. But by 45, something shifted. And it never shifted back.</p>"},{"type":"html","id":"gg9dt0zok7__text","label":"gg9dt0zok7__text","default":"<p>The symptoms arrived like uninvited guests that refused to leave:</p>"},{"type":"html","id":"ggj06GNzH3Q_srcSet_desktop_src","label":"ggj06GNzH3Q_srcSet_desktop_src","default":"https://cdn.shopify.com/s/files/1/0993/4700/5732/files/istockphoto-1147544807-612x612_copy.jpg"},{"type":"html","id":"ggopjhTuGvm_text","label":"ggopjhTuGvm_text","default":"<p>❌ Bloating so severe she looked six months pregnant by 2 PM every day</p>"},{"type":"html","id":"ggnCNIjY22n_text","label":"ggnCNIjY22n_text","default":"<p>❌ 3 AM wake-ups — every single night, like clockwork</p>"},{"type":"html","id":"ggZpXN4lA7p_text","label":"ggZpXN4lA7p_text","default":"<p>❌ Exhaustion that eight hours of sleep couldn't touch</p>"},{"type":"html","id":"ggkUxnOY1xy_text","label":"ggkUxnOY1xy_text","default":"<p>❌ Brain fog so thick she'd forget words mid-sentence</p>"},{"type":"html","id":"ggbGZHnqM74_text","label":"ggbGZHnqM74_text","default":"<p>❌ Sugar cravings at exactly the same time every afternoon</p>"},{"type":"html","id":"ggbfQTmkbn-_text","label":"ggbfQTmkbn-_text","default":"<p>❌ Skin tags appearing on her neck</p>"},{"type":"html","id":"ggSG32grfwV_text","label":"ggSG32grfwV_text","default":"<p>❌ Dry, itchy patches no cream could fix</p>"},{"type":"html","id":"ggqHX3BDP0h_text","label":"ggqHX3BDP0h_text","default":"<p>❌ Teeth grinding that cracked a molar</p>"},{"type":"html","id":"ggiqE_SBQZP_text","label":"ggiqE_SBQZP_text","default":"<p>❌ Feeling \"crawly\" sensations under her skin at night</p>"},{"type":"html","id":"ggqo9rfLJ3B_text","label":"ggqo9rfLJ3B_text","default":"<p>The medical carousel started spinning. Each symptom earned a new specialist, a new test, a new label — and a new prescription.</p>"},{"type":"html","id":"ggEpRg8mXN1_text","label":"ggEpRg8mXN1_text","default":"<p><i>\"Middle-age hormones. Happens to most women. Try probiotics.</i>\" — Sarah's primary care physician</p>"},{"type":"html","id":"ggrCD5lKcd4_srcSet_desktop_src","label":"ggrCD5lKcd4_srcSet_desktop_src","default":"https://cdn.shopify.com/s/files/1/0993/4700/5732/files/istockphoto-1147544807-612x612_copy.jpg"},{"type":"html","id":"ggd_M28mbfM_text","label":"ggd_M28mbfM_text","default":"<p>$89 probiotics did nothing. Neither did digestive enzymes. Neither did the elimination diets that slowly stripped every joy from eating. The gastroenterologist's verdict: \"IBS. Manage your stress. Eat more fiber.\"</p>"},{"type":"html","id":"ggPdnArLvhG_text","label":"ggPdnArLvhG_text","default":"<p>Fiber made it worse. By year two, Sarah's medicine cabinet looked like a pharmacy:</p>"},{"type":"html","id":"ggdl6Kslfu2_text","label":"ggdl6Kslfu2_text","default":"<p>1. Dicyclomine (IBS cramping)</p>"},{"type":"html","id":"ggLOtGJQTjR_text","label":"ggLOtGJQTjR_text","default":"<p>2. Omeprazole (acid reflux)</p>"},{"type":"html","id":"gg7sLIn1wnL_text","label":"gg7sLIn1wnL_text","default":"<p>3. Lexapro (\"anxiety\")</p>"},{"type":"html","id":"ggTzoKU1z18_text","label":"ggTzoKU1z18_text","default":"<p>4. Hydroxyzine (sleep)</p>"},{"type":"html","id":"ggU9xzpND8D_text","label":"ggU9xzpND8D_text","default":"<p>5. Miralax (constipation from the other meds)</p>"},{"type":"html","id":"gguGzhmjnWF_text","label":"gguGzhmjnWF_text","default":"<p>6. Metamucil (fiber — the thing making it worse)</p>"},{"type":"html","id":"ggB5I-3tNac_text","label":"ggB5I-3tNac_text","default":"<p>7. OTC Ibuprofen (headaches from the brain fog)</p>"},{"type":"html","id":"ggM9Ybm7vZi_text","label":"ggM9Ybm7vZi_text","default":"<p><i>\"They had a pill for every symptom. But not one doctor ever asked why I was having all of them at the same time.\" — </i>Sarah Whitfield</p>"},{"type":"html","id":"ggJhmS1lkq8_text","label":"ggJhmS1lkq8_text","default":"<p>The breaking point came on a Tuesday night. Sarah sat on the edge of the bed, crying, and said five words that broke Gary's heart:</p>"},{"type":"html","id":"ggnz7-QQmxU_text","label":"ggnz7-QQmxU_text","default":"<p><i>\"I'm broken. What's wrong with me?\"</i></p>"},{"type":"html","id":"ggXwLwgmPXK_text","label":"ggXwLwgmPXK_text","default":"<p>Before finding the answer, the Whitfield’s spent:</p>"},{"type":"html","id":"ggbs7JmAssX_text","label":"ggbs7JmAssX_text","default":"<p>⚠️ $3,200 on colonoscopy (\"just inflammation\")</p>"},{"type":"html","id":"gg1XAPWYMYi_text","label":"gg1XAPWYMYi_text","default":"<p>⚠️ $2,800 on food sensitivity panels (\"avoid gluten and dairy\")</p>"},{"type":"html","id":"ggNlsCqdur4_text","label":"ggNlsCqdur4_text","default":"<p>⚠️ $4,200 on functional medicine consultations</p>"},{"type":"html","id":"ggKRwc6O5IK_text","label":"ggKRwc6O5IK_text","default":"<p>⚠️ $9,600 on IBS medications over 2 years</p>"},{"type":"html","id":"ggnFBvleaj9_text","label":"ggnFBvleaj9_text","default":"<p>⚠️ $1,800 on probiotics and digestive enzymes</p>"},{"type":"html","id":"ggyvaFdF51S_text","label":"ggyvaFdF51S_text","default":"<p>⚠️ $1,400 on elimination diet coaching</p>"},{"type":"html","id":"ggA9GWxHXdn_text","label":"ggA9GWxHXdn_text","default":"<p><i>\"We spent twenty-three thousand dollars to be told nothing was wrong. The answer cost us forty-four dollars.\" — </i>Gary Whitfield</p>"}],
+    "blocks": [{"type": "@app"}],
+    "locales": {}
+  }
+{% endschema %}
